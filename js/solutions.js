@@ -11,4 +11,17 @@ requestSolutions.send();
 requestSolutions.onload = function() {
     solutions = requestSolutions.response;
     console.log(solutions)
+    presentSolutions()
+}
+
+
+function presentSolutions()  {
+    const main = document.getElementById('main')
+    console.log(main)
+
+    const title1 = document.createElement('h1')
+    title1.innerText = "Nos Solutions"
+    main.append(title1)
+
+
 }

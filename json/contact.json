@@ -1,23 +1,27 @@
 {
-    "reseauSociaux" : [
+    "nombreReseauxSociaux" : 3,
+    "reseauxSociaux" : [
         {
             "nomReseauSocial" : "Facebook",
-            "lienURLReseauSocial" : "",
-            "LogoReseauSocial" : ""
+            "lienURLReseauSocial" : "https://fr-fr.facebook.com/",
+            "LogoReseauSocial" : "https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/img/logoFacebook.png"
         },
         {
             "nomReseauSocial" : "LinkedIn",
-            "lienURLReseauSocial" : "",
-            "LogoReseauSocial" : ""
+            "lienURLReseauSocial" : "https://www.linkedin.com/",
+            "LogoReseauSocial" : "https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/img/logoLinkedIn.png"
         },
         {
             "nomReseauSocial" : "Instagram",
-            "lienURLReseauSocial" : "",
-            "LogoReseauSocial" : ""
+            "lienURLReseauSocial" : "https://www.instagram.com/?hl=fr",
+            "LogoReseauSocial" : "https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/img/logoInstagram.png"
         }
     ],
-    "autreContact" : {
-        "numeroTelephone" : "",
-        "adresseMail" : ""
-    }
+    "nombreAutreContact" : 3,
+    "autreContact" : [
+        {"numeroTelephone" : "06.12.34.56.78"},
+        {"adresseMail" : "lorem.ipsum@dolor.sit"},
+        {"adressePostal" : "Lorem ipsum dolor sit amet, consectetur adipiscing."}
+    ]
 }
+
