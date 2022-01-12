@@ -1,0 +1,23 @@
+{
+    "reseauSociaux" : [
+        {
+            "nomReseauSocial" : "Facebook",
+            "lienURLReseauSocial" : "",
+            "LogoReseauSocial" : ""
+        },
+        {
+            "nomReseauSocial" : "LinkedIn",
+            "lienURLReseauSocial" : "",
+            "LogoReseauSocial" : ""
+        },
+        {
+            "nomReseauSocial" : "Instagram",
+            "lienURLReseauSocial" : "",
+            "LogoReseauSocial" : ""
+        }
+    ],
+    "autreContact" : {
+        "numeroTelephone" : "",
+        "adresseMail" : ""
+    }
+}

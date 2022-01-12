@@ -1,0 +1,34 @@
+[
+    {
+        "nomSolution" : "Site web" ,
+        "descriptionSolution" : "Assurez votre présence en ligne en publiant le contenu essentiel de votre activité sur un site internet entièrement personnalisé."
+    },
+    {
+        "nomSolution" : "E-Commerce",
+        "descriptionSolution" : "Optez pour une solution de site e-commerce vous permet de vendre 24 heures sur 24 et 7 jours sur 7."
+    },
+    {
+        "nomSolution" : "Création de marque",
+        "descriptionSolution" : "Nous créons l'identité visuelle originale de votre marque à travers la création de son logo, de sa charte graphique et la conception de votre site internet."
+    },
+    {
+        "nomSolution" : "Stratégie de Communication",
+        "descriptionSolution" : "Optez pour un accompagnement sur mesure, mené par des professionnels de la communication."
+    },
+    {
+        "nomSolution" : "Audit",
+        "descriptionSolution" : "Nous cherchons ensemble quels sont vos axes d’amélioration possibles, nous analysons les méthodes et outils mis en place par votre entreprise."
+    },
+    {
+        "nomSolution" : "Chat Bot",
+        "descriptionSolution" : "Mettez l'intelligence artificielle au service de votre relation client. Automatisez les tâches à faible valeur ajoutée et créez des services interactifs."
+    },
+    {
+        "nomSolution" : "Application Mobile",
+        "descriptionSolution" : "Rendre votre entreprise mobile n’est plus un sujet de débat. Aujourd’hui vos clients et employés s’attendent à interagir avec vous du bout des doigts."
+    },
+    {
+        "nomSolution" : "ERP",
+        "descriptionSolution" : "Nos solutions ERP s’adaptent aux besoins et aux spécificités du marché de la prestation de services et répondent aux enjeux des professionnels."
+    }
+]

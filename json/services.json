@@ -1,0 +1,14 @@
+[
+    {
+        "nomService" : "Phase d'audit",
+        "descriptionService" : "Ici nous récoltons un maximum d'informations sur votre          entreprise, nous prenons le temps avec vous d'identifier vos difficultés et vos facilités ainsi que les réalités de gestion courante auxquelles vous êtes confrontées. Ceci afin de vous orienter vers la solution dont vous avez réellement besoin"
+    },
+    {
+        "nomService" : "Phase de conseil",
+        "descriptionService" : "À la suite de la phase d'audit seront identifiées les priorités en matière de conseil et de conception. À cette étape un premier bilan est effectué dans lequel nous présentons les résultats de l'audit et émettons des conseils pour la phase de conception"
+    },
+    {
+        "nomService" : "Phase de conception",
+        "descriptionService" : "La phase de conception peut soit être assurée par nos équipes soit être déléguée à un de nos nombreux partenaires au Canada en Espagne et en France et prochainement aux États-Unis. Nous proposons des solutions adaptées à tous types de clientèle et tous budgets confondus. Seulement nous sommes spécialistes dans les méthodes agiles et privilégions une approche sur mesure dans notre conception en interne. C'est pourquoi nous n'hésiterons pas à vous réorienter vers des solutions clefs en main ou vous dire de manière impartiale si les opportunités que vous avez identifiées valent réellement la peine pour votre entreprise."
+    }
+]
