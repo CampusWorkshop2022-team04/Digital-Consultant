@@ -1,4 +1,4 @@
-var requestArticlesURL = 'https://raw.githubusercontent.com/CampusWorkshop2022-team04/Digital-Consultant/main/json/articles.json?token=GHSAT0AAAAAABQP6BDBDHU72DYNBBMD6ORQYO6WEQQ';
+var requestArticlesURL = 'https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/json/articles.json';
 
 var requestArticles = new XMLHttpRequest();
 var articles = []

@@ -1,4 +1,4 @@
-var requestServicesURL = "https://raw.githubusercontent.com/CampusWorkshop2022-team04/Digital-Consultant/main/json/services.json?token=GHSAT0AAAAAABQP6BDANASWPUG726TMCKPQYO6WFQQ";
+var requestServicesURL = "https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/json/services.json";
 
 var requestServices = new XMLHttpRequest();
 var services = []
