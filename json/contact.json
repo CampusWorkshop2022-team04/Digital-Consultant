@@ -4,17 +4,17 @@
         {
             "nomReseauSocial" : "Facebook",
             "lienURLReseauSocial" : "https://fr-fr.facebook.com/",
-            "LogoReseauSocial" : "img/logoFacebook.png"
+            "LogoReseauSocial" : "../img/logoFacebook.png"
         },
         {
             "nomReseauSocial" : "LinkedIn",
             "lienURLReseauSocial" : "https://www.linkedin.com/",
-            "LogoReseauSocial" : "img/logoLinkedIn.png"
+            "LogoReseauSocial" : "../img/logoLinkedIn.png"
         },
         {
             "nomReseauSocial" : "Instagram",
             "lienURLReseauSocial" : "https://www.instagram.com/?hl=fr",
-            "LogoReseauSocial" : "img/logoInstagram.png"
+            "LogoReseauSocial" : "../img/logoInstagram.png"
         }
     ],
     "nombreAutreContact" : 3,

@@ -1,43 +1,98 @@
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>Digital Consultant</title>
+    <link rel="icon" type="image/png" href="logo.png"/> <!--Je lie le logo pour le mettre a coter du titre dans le nav-->
+    <link rel="stylesheet" href="css/styleaccueil.css"> <!--je lie une feuille de style pour gerer la mise en page de l'accueil-->
+    <link rel="stylesheet" href="css/stylePOP.css"> <!--je lie la feuille de style des cookies et du popup-->
 </head>
 <body>
-    <header class="color1">
-        <section id="navigation" class=" text-center">
-            <article class="">
-                <a href="index.html" class="boutton"><img class="logo" src="img/logo.png" alt="logo Digital Consultant"/></a>
-            </article>
-            <article class=" ">
-                <a href="Services.html" class="boutton">Nos Services</a>
-            </article>
-            <article class=" ">
-                <a href="Propos.html" class="boutton">À propos</a>
-            </article>
-            <article class=" ">
-                <a href="Partenaires.html" class="boutton">Nos patenaires</a>
-            </article>
-            <article class=" ">
-                <a href="Blog.html" class="boutton">Blog</a>
-            </article>
-            <article class=" ">
-                <a href="Contact.html" class="boutton">Nous contacter</a>
-            </article>
-        </section>
-    </header>
+    <div id="titre1" class="titre1">  <!-- Une div pour le titre  -->
+        <h2>Qui sommes nous </h2> 
+    </div>
+    <div id="texte1" class="texte1"> <!--Une div pour mettre le texte en rapport avec le titre-->
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Integer ultricies porta massa sit amet maximus.
+            Sed volutpat arcu orci, ac faucibus odio volutpat ut.
+            Mauris congue, urna ut sagittis aliquam,
+            erat eros venenatis orci, eu tincidunt dui leo nec massa.
+            Nulla feugiat tincidunt odio, non gravida.
+        </p>
+        <img class="img1" src="img/logo_full.png" alt="">
+    </div>
+    <div id="texte2" class="texte2"> <!-- Une autre div pour un titre et le texte en rapport-->
+        <h3 class="titre2">
+            À propos de nous 
+        </h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            In vel arcu at orci elementum pretium quis malesuada massa.
+            Vivamus eget metus in neque porttitor pretium. Aliquam cursus vitae sapien eu sagittis.
+            Nunc eu nunc varius, eleifend metus id, pulvinar lectus. Fusce congue ut velit eu dignissim.
+            In lobortis facilisis risus eget accumsan. Nullam gravida massa quis luctus hendrerit.
+            Quisque vitae odio justo. Maecenas nisi nulla, pulvinar at lacinia sit amet, luctus efficitur ex.
+            Integer viverra aliquam leo ac aliquam. Vestibulum dictum, tortor eget consectetur sollicitudin,
+            leo justo dictum turpis, quis vestibulum sem metus id nisi.
+            Ut pharetra felis non felis condimentum maximus.
+            Ut lacinia, nibh vel venenatis condimentum, ligula erat mollis nisl,
+            et interdum mi lorem non nulla turpis duis
+        </p>
+    </div>
+    <img class="img2" src="img/img1.jpg" alt="">
 
-    <main id="main">
+    <div id="newsletter" class="newsletter">
+        <h3>
+            Abonnez vous à notre newsletter
+        </h3>
+        <form >
+            <input class="formulaire"   placeholder="Adresse mail">
+            <div class="btn">
+                <button>soumettre </button>
+            </div>
+            
+        </form>
+    </div>
 
-    </main>
 
 
-    <!-- <script src="js/articles.js"></script>
-    <script src="js/partenaires.js"></script>
-    <script src="js/services.js"></script> -->
-    <script src="js/solutions.js"></script>
+
+    <div id="textecookies" class="textecookies"> <!-- Div pour mettre definir le texte qui annonce les cookies -->
+        <p id="cookies" class="cookies"> <!-- -->
+            Ce site utilise des cookies afin de vous garantir une experiences utilisateur adpatée
+            <button id="btnautoriser" class="btnautoriser"> Autoriser les cookies</button> <!-- création d'un boutton-->
+            <button id="btngerer" class="btngerer"> gerer les cookies </button>   <!-- Création d'un bouton -->     
+        </p>
+    </div>
+
+    <div id="overlay" class="overlay "> <!-- création de la Div pour le contenue du popup-->
+        <div id="popup" class="popup">
+            <h2>
+                Gérer les cookies 
+                <span id="btnclose" class="btnclose">&times;</span> <!-- Création de la croix pour fermer la popup-->
+            </h2>
+            <p> <!-- Contenue de la popup-->
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                In lectus libero, vulputate eget nibh et, iaculis tincidunt elit.
+                Donec enim nulla, sollicitudin vel cursus vitae, imperdiet quis ante.
+                Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                Fusce blandit lacus vitae risus vulputate commodo.
+                Vestibulum ac enim viverra elit vehicula sollicitudin nec at ex.
+                Nunc a metus lobortis, bibendum turpis vitae, convallis arcu.
+                Sed feugiat faucibus ligula, sed suscipit orci elementum vel.
+                Suspendisse potenti. Mauris sed sodales eros.
+                Ut sapien felis, semper tempus libero egestas, feugiat lacinia odio.
+                Ut orci diam, vehicula ut mattis nec, rutrum eget tortor.
+                Phasellus tincidunt nibh tellus, volutpat pharetra felis tristique quis.
+                Vivamus posuere gravida nunc vestibulum volutpat. Donec ultrices tellus libero,
+                eget vehicula dui mollis imperdiet. Nam tincidunt pharetra purus,
+                et varius sem efficitur eget. Nunc nec congue eros.
+            </p>
+        </div>
+    </div>
+    <script src="js/scriptPOP.js"></script> <!-- Liaison du script javascript-->
 </body>
 </html>
