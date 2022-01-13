@@ -1,0 +1,49 @@
+.titre1{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.texte1{
+    padding-right: 40%;
+    margin-left: 3%;
+    font-size: large;
+    padding-bottom: 5%; 
+     
+}
+
+.titre2{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+
+.texte2{
+    padding-left: 40%;
+    margin-left: 3%;
+    font-size: large;
+    padding-bottom: 5%; 
+    
+}
+
+.newsletter{
+    font-size: x-large;
+    padding-bottom: 12%;
+    text-align: center;
+}
+
+.formulaire{
+    padding: 2%;
+    padding-right: 15%;
+    text-align: left;
+}
+
+.btn{
+    font-size: x-large;
+}
+
+.img1{
+    width:50%;
+    height: 50%;
+    padding-left: 120%;
+}
+
