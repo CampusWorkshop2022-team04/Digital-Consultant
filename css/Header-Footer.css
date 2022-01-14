@@ -1,0 +1,105 @@
+.bouton, #page-actuel:hover {
+	background-color:#0E7894;
+	border-radius:15px;
+	border:1px solid #8c8c8c;
+	display:inline-block;
+	cursor:pointer;
+	font-family:Arial;
+	text-decoration:none;
+	color:white;
+	margin:2px 5px;
+	padding:4px 5px;
+	box-shadow:none;
+	
+	text-align:center;
+}
+@media screen and (min-width: 800px) {
+	.bouton, .bouton:hover, #page-actuel, #page-actuel:hover {
+		width:10%;
+		height:auto;
+	}
+	.logo {
+		width : 10%;
+		min-width:35px;
+		display:inline-block;
+		vertical-align: middle;
+	}
+	#CGU,#MORT, #MentionLegal {
+	width:12%;
+	height:auto;
+	margin-left :5%;
+	margin-right :5%;
+	}
+	#MORT {
+		margin-top: 2%;
+	}
+	.icon {
+	width : 4.16%;
+	}
+}
+@media screen and (max-width: 800px) {
+	.bouton, .bouton:hover, #page-actuel, #page-actuel:hover {
+	width:90%;
+	height:auto;
+	}
+	.logo {
+		width : 20%;
+		min-width:55px;
+		display:inline-block;
+		vertical-align: middle;
+	}
+	.header {
+		text-align:center;
+		flex:auto;
+	}
+	#page-actuel {
+		width : 90%;
+		height:auto;
+	}
+	#CGU,#MORT, #MentionLegal {
+	width: 90%;
+	height:auto;
+	margin-left :0%;
+	margin-right :0%;
+	padding-top: 1%;
+	margin-bottom: 1%;
+	}
+	.icon {
+	width : 10%;
+	}
+}
+.color1 {
+	background-color : #A3D5CF 
+}
+body {
+	height:100%;
+	width:100%;
+	margin:0;
+	
+}
+.header {
+	margin-bottom: 2%;
+	padding-top: 1%;
+	margin-top:0%;
+	margin-left:0%;
+	margin-right:0%;
+	padding-bottom: 1%;
+	flex:auto;
+}
+.bouton:hover {
+	background-color:#168f5d;
+	color:white;
+	box-shadow: 5px 5px 7px 3px rgba(0,0,0,0.19);
+}
+.header, .footer, .article, .section, p {
+ display: inline-block;
+ vertical-align: middle;
+ float: none;
+}
+.footer {
+	position: static;
+	text-align:center;
+}
+#copyR {
+	text-align:center;
+}
