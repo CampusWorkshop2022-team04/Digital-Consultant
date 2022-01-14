@@ -4,38 +4,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documents Légaux</title>
-    <link rel="stylesheet" href="../css/style.css"/>
+
+    <link rel="stylesheet" href="../css/Header-Footer.css"/>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/blog.css"/>
 </head>
 <body>
-    <header class="color1">
-        <section id="navigation" class=" text-center">
-            <article class="">
-                <a href="../index.html" class="boutton"><img class="logo" src="../img/logo.png" alt="logo Digital Consultant"/></a>
-            </article>
-            <article class=" ">
-                <a href="Services.html" class="boutton">Nos Services</a>
-            </article>
-            <article class=" ">
-                <a href="Propos.html" class="boutton">À propos</a>
-            </article>
-            <article class=" ">
-                <a href="Partenaires.html" class="boutton">Nos partenaires</a>
-            </article>
-            <article class=" ">
-                <a href="blog.html" class="boutton">Blog</a>
-            </article>
-            <article class=" ">
-                <a href="contact.html" class="boutton">Nous contacter</a>
-            </article>
-        </section>
-    </header>
+    <!-- On a relié le css et le html principalement par des class a la manière de bootstrap (on etais partit la dessus de base) -->
+		<!-- Barre de navigation -->
+		<div class="color1 header">
+			<div class="section" id="navigation" class=" text-center">
+				<a href="../index.html" class=""><img class="logo" src="../img/logo.png" alt="logo Digital Consultant"/></a>
+				<a href="services.html" class="bouton">Nos Services</a>
+				<a href="propos.html" class="bouton">À propos</a>
+				<a href="partenaires.html" class="bouton">Nos partenaires</a>
+				<a href="blog.html" class="bouton">Blog</a>	
+				<a href="contact.html" class="bouton">Nous contacter</a>
+			</div class="section">
+		</div>
 
-    <main>
+    <div id="main">
 
         <div id="divBoutonDocumentsLegaux">
-            <button id="mentionsLegales">Mentions Légales</button>
-            <button id="CGU">Conditions Générales d'Utilisation</button>
-            <button id="RGPD">RGPD</button>
+            <button id="mentionsLegales" class="btnDocumentsLegaux">Mentions Légales</button>
+            <button id="CGU" class="btnDocumentsLegaux">Conditions Générales d'Utilisation</button>
+            <button id="RGPD" class="btnDocumentsLegaux">RGPD</button>
         </div>
 
         <div id="divDocumentsLegaux">
@@ -43,16 +36,22 @@
         </div>
         
 
-    </main>
+    </div>
 
 
 
-    <footer class="color1 text-center">
-        <section id="FooterMidle" class=" align-middle">
-            <a href="#Général"><img src="../img/logo.png" alt="logo Digital Consultant" class="logo"/></a>
-            <br><p>&copy; Copryright 2021</p>
-        </section>
-    </footer>
+    <!-- Pour le footer on a obtter pour des boutons, un qui vous ramène en haut de la page (ancre #Général) et deux autres pour Les mentions legal et pour les CGU -->
+		<div class=" footer color1">
+            <!-- Mention legal -->
+            <a href="documentsLegaux.html" id="MentionLegal page-actuel" class="bouton">Mention legal</a>
+            <!-- bouton qui vous ramène en haut de la page (ancre #Général) -->
+            <a id="MORT" href="#Général"><img src="../img/logo.png" alt="logo Digital Consultant" class="logo"/></a>
+            <!-- © Copryright 2021 je ne sais pas si le 2022 est sortie -->
+            <!-- CGU -->
+            <a href="documentsLegaux.html" id="CGU page-actuel" class="bouton">Conditions Générales d'Utilisation</a>
+            <br>
+            <p id="copyR">&copy; Copryright 2021</p>
+    </div>
     
 
     <script src="../js/documentsLegaux.js"></script>
