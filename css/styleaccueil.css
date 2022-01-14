@@ -1,3 +1,7 @@
+#main {
+    padding: 5px;
+}
+
 #Qui_sommes_nous {
     display:  flex;
     flex-wrap: wrap;
