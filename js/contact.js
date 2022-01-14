@@ -24,6 +24,7 @@ function presentReseauxSociaux() {
     if (contact['nombreReseauxSociaux'] != 0) {
         const titrePartie = document.createElement('h3')
         titrePartie.innerText = "Où nous trouver ?"
+        titrePartie.className = "text-center m-3"
         nousTrouver.prepend(titrePartie)
 
         for (let i=0; i < contact['reseauxSociaux'].length; i++) {
@@ -54,6 +55,7 @@ function presentAutreContact() {
     if (contact['nombreAutreContact'] != 0) {
         const titrePartie = document.createElement('h3')
         titrePartie.innerText = "Nos contacts"
+        titrePartie.className = "text-center"
         nosContacts.prepend(titrePartie)
 
         const ulContact = document.createElement('ul')

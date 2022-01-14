@@ -12,14 +12,14 @@
 	<!-- On a relié le css et le html principalement par des class a la manière de bootstrap (on etais partit la dessus de base) -->
 		<!-- Barre de navigation -->
 		<div id="header" class="color1">
-			<div class="section" id="navigation" class=" text-center">
+			<div class="section text-center" id="navigation">
 				<a href="../index.html" class=""><img class="logo" src="../img/logo.png" alt="logo Digital Consultant"/></a>
 				<a href="services.html" class="bouton">Nos Services</a>
 				<a href="propos.html" class="bouton">À propos</a>
 				<a href="partenaires.html" class="bouton">Nos patenaires</a>
 				<a href="blog.html" class="bouton">Blog</a>	
-				<p class="actbouton">Nous contacter</p>
-			</div class="section">
+				<a href="contact.html" id="page-actuel" class="bouton">Nous contacter</a>
+			</div>
 		</div>
 
 		<!-- Fin de la barre de navigation -->
@@ -53,27 +53,13 @@
 			<!-- fin du formulaire -->
 				
             <div class="margin" id="nos-contacts">
-                <h3 class="text-center">Nos contacts</h3>
-                <ul>
-                    <li class="text-center mt-3"><a href="tel:+33410095001">"mettre ici votre numéro de téléphone"</a></li>
-                    <li class="text-center mt-3"><a href="mailto:adresse.exemple@pour.site">"mettre.ici@votre.adresse"</a></li>
-                    <li class="text-center mt-3"> "adresse postale" </li>
-                </ul>
             </div>
 				
-			<!-- Ici on affiche les potentiels réseaux sociau de la société -->
+			<!-- Ici on affiche les potentiels réseaux sociaux de la société -->
             <div id="NousTrouver" class="margin">
-				<h3 class="text-center  m-3">Où nous trouver ?</h5>
-				<!-- (fjd est la ou vous mettrez le lien pour vos réseaux sociaux) -->
-				<a href="fjd">
-					<img src="https://www.lespetitsbilingues.com/wp-content/uploads/2021/02/logo-rond-insta-300x300.png" alt="instagrame" class="icon"/>
-				</a>
-				<a href="fjd">
-					<img src="http://assets.stickpng.com/thumbs/58e91965eb97430e819064f5.png" alt="Facebook" class="icon"/>
-				</a>
 			</div>
 		</div>
-		<!-- Pour le footer on a obtter pour des boutons, un qui vous ramène en haut de la page (ancre #Général) et deux autres pour Les mentions legal et pour les CGU -->
+		<!-- Pour le footer on a opter pour des boutons, un qui vous ramène en haut de la page (ancre #Général) et deux autres pour Les mentions legal et pour les CGU -->
 		<div class=" footer color1">
 			<!-- Mention legal -->
 			<a href="documentsLegaux.html" id="MentionLegal" class="bouton">Mention legal</a>
@@ -85,6 +71,8 @@
 			<br>
 			<p id="copyR">&copy; Copryright 2021</p>
         </div>
+
+		<script src="../js/contact.js"></script>
 	</body>
 </html>
 		
