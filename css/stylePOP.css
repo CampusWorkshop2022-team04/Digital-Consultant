@@ -44,9 +44,9 @@
 }
 
 .textecookies{
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    background-color: rgba(0,0,0,0.3)
-    
+    background-color: #b2b2b2;
+    width: 100%;    
 }
 
