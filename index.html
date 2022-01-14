@@ -10,48 +10,26 @@
     <link rel="stylesheet" href="css/stylePOP.css"> <!--je lie la feuille de style des cookies et du popup-->
 </head>
 <body>
-    <header class="color1">
-        <section id="navigation" class=" text-center">
-            <article class="">
-                <a href="index.html" class="boutton"><img class="logo" src="img/logo.png" alt="logo Digital Consultant"/></a>
-            </article>
-            <article class=" ">
-                <a href="Services.html" class="boutton">Nos Services</a>
-            </article>
-            <article class=" ">
-                <a href="Propos.html" class="boutton">À propos</a>
-            </article>
-            <article class=" ">
-                <a href="Partenaires.html" class="boutton">Nos partenaires</a>
-            </article>
-            <article class=" ">
-                <a href="html/blog.html" class="boutton">Blog</a>
-            </article>
-            <article class=" ">
-                <a href="html/contact.html" class="boutton">Nous contacter</a>
-            </article>
-        </section>
-    </header>
-
-
     <div id="Qui_sommes_nous">  <!-- Une div pour le texte et le titre du paragraphes qui sommes nous  -->
-        <h2 class="titreQsn">Qui sommes nous </h2> 
-        <p class="texteQsn">
+        <h2 id="titreQsn">Qui sommes nous </h2> 
+        <p id="texteQsn">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Integer ultricies porta massa sit amet maximus.
             Sed volutpat arcu orci, ac faucibus odio volutpat ut.
             Mauris congue, urna ut sagittis aliquam,
             erat eros venenatis orci, eu tincidunt dui leo nec massa.
             Nulla feugiat tincidunt odio, non gravida.
+            
         </p>
-        <img class="img1" src="img/logo-full.png" alt="">
+        <img id="logo_full" src="img/logo_full.png" alt="">
     </div>
     
     <div id="A_propos_de_nous"> <!-- Une div pour un titre et le texte en rapport avec le paragraphe A propos de nous-->
-        <h3 class="titre_Apn">
+        <h3 id="titre_Apn">
             À propos de nous 
         </h3>
-        <p class="texteApn">
+        <img id="img_Apn" src="img/img1.jpg" alt="">
+        <p id="texteApn">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             In vel arcu at orci elementum pretium quis malesuada massa.
             Vivamus eget metus in neque porttitor pretium. Aliquam cursus vitae sapien eu sagittis.
@@ -64,27 +42,30 @@
             Ut lacinia, nibh vel venenatis condimentum, ligula erat mollis nisl,
             et interdum mi lorem non nulla turpis duis
         </p>
-        <img class="img2" src="img/img1.jpg" alt="">
     </div>
 
-    <div id="Nos partenaires">
-        <h3 class="nbPartenaires">
-            XXX
-        </h3>
-        <p class="texteP">
-            C'est le nombre de partenaires
-            qui nous font confiances !!!
-        </p>
-        <img src="img/partenaire.jpg" alt="">
+    <div id="Nospartenaires"> <!-- Création de la div pour les partenaires-->
+        <div id="paragraphe_partenaire"> <!--Crétion de la div pour le texte-->
+            <h3 id="nbPartenaires">
+                XXX
+            </h3>
+            <p id="texteP">
+                C'est le nombre de partenaires
+                qui nous font confiances !!!
+            </p>
+        </div>
+        <div id="imgNosPartenaires"> <!--Crétion de la div pour l'image-->
+            <img id="imgPartenaires" src="img/partenaire.jpg" alt="">
+        </div>
     </div>
     
 
-    <div id="newsletter" class="newsletter">
+    <div id="newsletter"> <!--Création de la div pour la newsletter-->
         <h3>
             Abonnez vous à notre newsletter
         </h3>
         <form >
-            <input class="formulaire"   placeholder="Adresse mail">
+            <input id="formulaire"   placeholder="Adresse mail">
             <div class="btn">
                 <button>soumettre </button>
             </div>
