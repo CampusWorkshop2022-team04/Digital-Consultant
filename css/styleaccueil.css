@@ -1,38 +1,105 @@
-.titre1{
-    margin-top: 2%;
-    margin-left: 2%;
+#Qui_sommes_nous {
+    display:  flex;
+    flex-wrap: wrap;
 }
 
-.texte1{
-    padding-right: 40%;
-    margin-left: 3%;
+#titreQsn{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 100%;
+}
+
+#texteQsn{
     font-size: large;
-    padding-bottom: 5%; 
+    width: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
      
 }
 
-.titre2{
+#logo_full{
+    width: 30%;
+    flex-shrink: 1;
+}
+
+#A_propos_de_nous{
+    display:  flex;
+    flex-wrap: wrap;
+}
+
+#titre_Apn{
+    width: 100%;
     margin-top: 2%;
     margin-left: 2%;
 }
 
 
-.texte2{
-    padding-left: 40%;
-    margin-left: 3%;
+#texteApn{
+    margin-left: 2%;
     font-size: large;
-    padding-bottom: 5%; 
-    
+    width: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+     
 }
 
-.newsletter{
+#img_Apn{
+    width: 30%;
+    flex-shrink: 1;
+}
+
+#Nospartenaires{
+    flex-direction: row;
+    display:  flex;
+    flex-wrap: wrap;
+}
+
+#Nos_partenaires{
+    flex-direction: column;
+    display:  flex;
+    flex-wrap: wrap;
+}
+
+#nbPartenaires{
+    margin-top: 30%;
+    margin-left: 50%;
+    width: 100%;
+}
+
+#texteP{
+    padding-top: 10%;
+    padding-left: 40%;
+    font-size: large;
+    width: 50%;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#imgNosPartenaires{
+    padding-top: 2%;
+    display:  flex;
+    flex-wrap: wrap;
+    margin-right: 5%;
+    height: 20%;
+    flex-shrink: 1;
+
+}
+
+#imgPartenaires{
+    width: 60%;
+    height: 60%;
+    padding-left: 60%;
+}
+
+#newsletter{
+    padding-top: 5%;
     font-size: x-large;
     padding-bottom: 12%;
     text-align: center;
 }
 
-.formulaire{
-    padding: 2%;
+#formulaire{
+    padding: 1%;
     padding-right: 15%;
     text-align: left;
 }
@@ -41,9 +108,5 @@
     font-size: x-large;
 }
 
-.img1{
-    width:50%;
-    height: 50%;
-    padding-left: 120%;
-}
+
 
