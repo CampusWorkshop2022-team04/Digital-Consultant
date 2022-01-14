@@ -63,7 +63,7 @@ function showTitleDocument(titleDocument) {
 }
 
 
-document.getElementById('mentionsLegales').addEventListener(
+document.getElementById('btnMentionsLegales').addEventListener(
     'click',
     function() {
         showTitleDocument('Mentions Légales')
@@ -71,7 +71,7 @@ document.getElementById('mentionsLegales').addEventListener(
     }
 )
 
-document.getElementById('CGU').addEventListener(
+document.getElementById('btnCGU').addEventListener(
     'click',
     function() {
         showTitleDocument('CGU')
@@ -79,7 +79,7 @@ document.getElementById('CGU').addEventListener(
     }
 )
 
-document.getElementById('RGPD').addEventListener(
+document.getElementById('btnRGPD').addEventListener(
     'click',
     function() {
         showTitleDocument('RGPD')
