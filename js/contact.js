@@ -1,7 +1,7 @@
 document.getElementById('page-actuel').removeAttribute('href')
 
 
-var requestContactURL = 'https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/json/contact.json';
+var requestContactURL = 'https://github.com/CampusWorkshop2022-team04/Digital-Consultant/main/json/contact.json';
 
 var requestContact = new XMLHttpRequest();
 var contact = []

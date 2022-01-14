@@ -1,4 +1,4 @@
-var requestDocumentsLegauxURL = 'https://raw.githubusercontent.com/GuilhemGabrielli/-CampusWorkshop2022-Team04/main/json/documentsLegaux.json';
+var requestDocumentsLegauxURL = 'https://github.com/CampusWorkshop2022-team04/Digital-Consultant/main/json/documentsLegaux.json';
 
 var requestDocumentsLegaux = new XMLHttpRequest();
 var documentsLegaux = []
