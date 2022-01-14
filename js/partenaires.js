@@ -15,3 +15,8 @@ requestPartenaires.onload = function() {
     const imgAudit = document.getElementById('img-audit')
     imgAudit.src = partenaires[0]["logo"]
 }
+
+
+function obtenirNombrePartenaire() {
+    return partenaires.length
+}
