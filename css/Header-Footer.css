@@ -24,13 +24,13 @@
 		display:inline-block;
 		vertical-align: middle;
 	}
-	#CGU,#MORT, #MentionLegal {
+	#CGU,#LogoFooter, #MentionLegal {
 	width:12%;
 	height:auto;
 	margin-left :5%;
 	margin-right :5%;
 	}
-	#MORT {
+	#LogoFooter {
 		margin-top: 2%;
 	}
 	.icon {
@@ -56,7 +56,7 @@
 		width : 90%;
 		height:auto;
 	}
-	#CGU,#MORT, #MentionLegal {
+	#CGU,#LogoFooter, #MentionLegal {
 	width: 90%;
 	height:auto;
 	margin-left :0%;
