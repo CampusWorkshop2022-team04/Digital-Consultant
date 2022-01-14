@@ -1,0 +1,21 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#divBoutonDocumentsLegaux {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnDocumentsLegaux {
+    background-color: #A3D5CF;
+    border-radius: 15px;
+    border-style: none;
+    padding: 7px;
+}
+
+#divDocumentsLegaux {
+
+}
