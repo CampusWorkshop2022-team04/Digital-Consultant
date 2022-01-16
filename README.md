@@ -14,10 +14,14 @@
 
 14 Janvier 2022  16h30 :
 
-- Le design du site entièrement créé sur figma
+- Le design du site a été entièrement créé sur figma
 - L'accueil, la page contact, le blog et les documents légaux ont été adpaté au style du site créé le matin même
 - L'en-tête du site et le pied de page sont enfin terminé 
 - Liaison de l'en-tête du site et le pied de page avec l'accueil
 
 16 Janvier 2022 17h10 :
 - La page documentsLegaux.html a maintenant son style css de fini, responsive qui plus est
+
+16 Janvier 2022 18h04 :
+- Le style de la page blog.html est maintenant entièrement terminé (style & responsive)
+- La page index.html indique dorénavant le nombre de partenaires inscrit dans le fichier JSON correspondant
