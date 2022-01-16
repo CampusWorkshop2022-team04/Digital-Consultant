@@ -36,17 +36,17 @@ requestDocumentsLegaux.onload = function() {
 
 
 function showMentionsLegals() {
-    const pDocumentLegaux = document.getElementById('pDocumentLegaux')
+    const pDocumentLegaux = document.getElementById('pDocumentsLegaux')
     pDocumentLegaux.innerText = documentsLegaux['mentionsLegales']
 }
 
 function showCGU() {
-    const pDocumentLegaux = document.getElementById('pDocumentLegaux')
+    const pDocumentLegaux = document.getElementById('pDocumentsLegaux')
     pDocumentLegaux.innerText = documentsLegaux['CGU']
 }
 
 function showRGPD() {
-    const pDocumentLegaux = document.getElementById('pDocumentLegaux')
+    const pDocumentLegaux = document.getElementById('pDocumentsLegaux')
     pDocumentLegaux.innerText = documentsLegaux['RGPD']
 }
 
