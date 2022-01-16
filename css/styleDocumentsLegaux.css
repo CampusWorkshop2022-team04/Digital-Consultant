@@ -4,6 +4,10 @@
     flex-wrap: wrap;
 }
 
+#titleDocumentsLegaux {
+    text-align: center;
+}
+
 #divBoutonDocumentsLegaux {
     display: flex;
     justify-content: space-around;
