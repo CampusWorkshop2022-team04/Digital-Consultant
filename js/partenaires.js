@@ -11,12 +11,11 @@ requestPartenaires.send();
 requestPartenaires.onload = function() {
     var partenaires = requestPartenaires.response;
     console.log(partenaires)
-
-    const imgAudit = document.getElementById('img-audit')
-    imgAudit.src = partenaires[0]["logo"]
+    afficherNombrePartenaire(partenaires.length)
 }
 
 
-function obtenirNombrePartenaire() {
-    return partenaires.length
+function afficherNombrePartenaire(nombrePartenaire) {
+    const hNbPartenaires = document.getElementById('nbPartenaires')
+    hNbPartenaires.innerText = nombrePartenaire
 }
