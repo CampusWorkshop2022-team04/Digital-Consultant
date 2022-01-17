@@ -95,9 +95,6 @@
     padding-left: 60%;
 }
 
-#logo_partenaires {
-    width: 100%;
-}
 
 #newsletter{
     padding-top: 5%;
@@ -134,6 +131,11 @@ padding-left: 70px;
     width: 100px;
     font-size: 20px;
     color: black;
+}
+
+
+.logo_partenaires {
+    width: 100%;
 }
 
 
