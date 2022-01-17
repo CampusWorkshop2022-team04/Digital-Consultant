@@ -25,3 +25,6 @@
 16 Janvier 2022 18h04 :
 - Le style de la page blog.html est maintenant entièrement terminé (style & responsive)
 - La page index.html indique dorénavant le nombre de partenaires inscrit dans le fichier JSON correspondant
+
+17 Janvier 2022 10h59 :
+- La page "A Propos" est maintenant complété avec une frise et une carte
