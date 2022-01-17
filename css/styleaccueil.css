@@ -138,6 +138,13 @@ padding-left: 70px;
     width: 100%;
 }
 
+@media screen and (orientation : portrait ) {
+    img {
+        height: auto;
+    }
+    
+}
+
 
 
 
