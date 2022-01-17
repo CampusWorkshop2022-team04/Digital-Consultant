@@ -11,17 +11,34 @@ requestSolutions.send();
 requestSolutions.onload = function() {
     solutions = requestSolutions.response;
     console.log(solutions)
-    presentSolutions()
+    presentSolutions(solutions)
 }
 
 
-function presentSolutions()  {
-    const main = document.getElementById('main')
-    console.log(main)
+function presentSolutions(solu)  {
+    const nosSolutions = document.getElementById('nosSolutions')
 
-    const title1 = document.createElement('h1')
-    title1.innerText = "Nos Solutions"
-    main.append(title1)
+    for (let i= 0; i<solu.length; i++) {
+        addSolution(solu[i], nosSolutions)
+    }
 
 
+}
+
+function addSolution(solution, divSolutions) {
+    const divSolution= document.createElement('div')
+    divSolution.className = "divSolution"
+
+    const titre = document.createElement('p')
+    titre.className = "titreSolution"
+    titre.innerText = solution["nomSolution"]
+
+    const descriptif = document.createElement('p')
+    descriptif.className = "descriptifSolution"
+    descriptif.innerText = solution["descriptionSolution"]
+
+    divSolution.append(titre)
+    divSolution.append(descriptif)
+
+    divSolutions.append(divSolution)
 }
