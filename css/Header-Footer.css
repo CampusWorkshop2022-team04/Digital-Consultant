@@ -13,7 +13,7 @@
 	
 	text-align:center;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 1144px) {
 	.bouton, .bouton:hover, #page-actuel, #page-actuel:hover {
 		width:10%;
 		height:auto;
@@ -24,20 +24,46 @@
 		display:inline-block;
 		vertical-align: middle;
 	}
-	#CGU,#LogoFooter, #MentionLegal {
+	#CGU,#Ancre, #MentionLegal {
 	width:12%;
 	height:auto;
 	margin-left :5%;
 	margin-right :5%;
+	vertical-align: middle;
 	}
-	#LogoFooter {
+	#Ancre {
 		margin-top: 2%;
 	}
 	.icon {
 	width : 4.16%;
 	}
 }
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 800px) and (max-width:1143px) {
+	.bouton, .bouton:hover, #page-actuel, #page-actuel:hover {
+		width:15%;
+		height:auto;
+	}
+	.logo {
+		width : 10%;
+		min-width:35px;
+		display:inline-block;
+		vertical-align: middle;
+	}
+	#CGU,#Ancre, #MentionLegal {
+	width:20%;
+	height:auto;
+	margin-left :5%;
+	margin-right :5%;
+	vertical-align: middle;
+	}
+	#Ancre {
+		margin-top: 2%;
+	}
+	.icon {
+	width : 4.16%;
+	}
+}
+@media screen and (max-width: 874px) {
 	.bouton, .bouton:hover, #page-actuel, #page-actuel:hover {
 	width:90%;
 	height:auto;
@@ -56,13 +82,14 @@
 		width : 90%;
 		height:auto;
 	}
-	#CGU,#LogoFooter, #MentionLegal {
+	#CGU,#Ancre, #MentionLegal {
 	width: 90%;
 	height:auto;
 	margin-left :0%;
 	margin-right :0%;
 	padding-top: 1%;
 	margin-bottom: 1%;
+	vertical-align: middle;
 	}
 	.icon {
 	width : 10%;
@@ -79,28 +106,26 @@ body {
 }
 #header {
 	margin-bottom: 2%;
-	padding-top: 1%;
+	padding: 1%;
 	margin-top:0%;
 	margin-left:0%;
 	margin-right:0%;
-	padding-bottom: 1%;
 	flex:auto;
-	padding: 5px;
 }
 .bouton:hover {
 	background-color:#168f5d;
 	color:white;
 	box-shadow: 5px 5px 7px 3px rgba(0,0,0,0.19);
 }
-#header, .footer, .article, .section, p {
+#header, #footer, .article, .section, p {
  display: inline-block;
  vertical-align: middle;
  float: none;
 }
-.footer {
+#footer {
 	position: static;
+	padding-top : 1%;
 	text-align:center;
-	padding: 5px;
 }
 #copyR {
 	text-align:center;
