@@ -95,6 +95,10 @@
     padding-left: 60%;
 }
 
+#logo_partenaires {
+    width: 100%;
+}
+
 #newsletter{
     padding-top: 5%;
     font-size: x-large;
