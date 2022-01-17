@@ -112,5 +112,26 @@
     font-size: x-large;
 }
 
+.logo_partenaires li{
+    display: inline-grid;
+
+}
+
+.logo_partenaires img{
+    width: 250px;
+    height: auto;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+
+.logo_partenaires p{
+padding-left: 70px;
+    width: 100px;
+    font-size: 20px;
+    color: black;
+}
+
+
 
 
