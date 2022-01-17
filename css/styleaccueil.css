@@ -138,8 +138,9 @@ padding-left: 70px;
     width: 100%;
 }
 
-@media screen and (orientation : portrait ) {
+@media screen and (maw-width : 500px ) {
     img {
+        width: auto;
         height: auto;
     }
     
