@@ -28,3 +28,7 @@
 
 17 Janvier 2022 10h59 :
 - La page "A Propos" est maintenant complété avec une frise et une carte
+
+17 Janvier 2022 17h48 :
+- La page services.html est maintenant bien avancée. Les solutions se mettent automatiquement grâce auc fichiers JS et JSON.
+- index.html possède maintenant un bandeau défilant de partenaires
