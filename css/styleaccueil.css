@@ -138,14 +138,30 @@ padding-left: 70px;
     width: 100%;
 }
 
-@media screen and (maw-width : 500px ) {
+@media screen and (max-width : 700px ) {
     img {
         width: auto;
         height: auto;
     }
     
+    #Qui_sommes_nous{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    #A_propos_de_nous{
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
+    #Nospartenaires{
+        align-items: left;
+        text-align: left;
+        flex-direction: column;
+    }
+    #imgPartenaires{
+        align-items: center;
+        padding-left: 90px;
+    }
+
 }
-
-
-
-
