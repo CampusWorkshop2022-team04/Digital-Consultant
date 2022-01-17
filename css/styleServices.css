@@ -4,13 +4,14 @@
 
 #nosServices {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 2%;
 }
 
 .service {
-    width: 399px;
-    height: 399px;
+    width: 387px;
+    height: 387px;
     text-align: center;
     vertical-align: middle;
     border-radius: 15px;
@@ -60,4 +61,8 @@
     padding: 0% 1% 0% 1%;
     margin-block-start: 0.5em;
     text-align: justify;
+}
+
+@media screen and (max-width:768px) {
+    
 }
