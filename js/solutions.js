@@ -35,7 +35,7 @@ function addSolution(solution, divSolutions) {
 
     const descriptif = document.createElement('p')
     descriptif.className = "descriptifSolution"
-    descriptif.innerText = solution["descriptionSolution"]
+    descriptif.innerText = solution["descriptionSolution"]["fr"]
 
     divSolution.append(titre)
     divSolution.append(descriptif)
