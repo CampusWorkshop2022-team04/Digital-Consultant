@@ -155,7 +155,7 @@ padding-left: 70px;
         flex-direction: column;
     }
     #Nospartenaires{
-        align-items: left;
+        align-items: start;
         text-align: left;
         flex-direction: column;
     }
