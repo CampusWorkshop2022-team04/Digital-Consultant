@@ -32,3 +32,6 @@
 17 Janvier 2022 17h48 :
 - La page services.html est maintenant bien avancée. Les solutions se mettent automatiquement grâce auc fichiers JS et JSON.
 - index.html possède maintenant un bandeau défilant de partenaires
+
+18 Janvier 2022 12h11 :
+- La page portfolio.html est maintenant fini avec chaque réalisation inscrite grâce aux fichiers JS et JSON
