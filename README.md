@@ -42,3 +42,6 @@
 18 Janvier 2022 15h15 :
 - Toutes les pages du site ont été deployée
 - Améliorations du formulaire de contact
+
+18 Janvier 2022 18h29 :
+- Amélioration de la page services.html qui explique chaque service proposé par Digital Consultant
