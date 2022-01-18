@@ -29,7 +29,7 @@ function addSolution(solution, divSolutions) {
     const divSolution= document.createElement('div')
     divSolution.className = "divSolution"
 
-    const titre = document.createElement('p')
+    const titre = document.createElement('h3')
     titre.className = "titreSolution"
     titre.innerText = solution["nomSolution"]
 
