@@ -31,7 +31,7 @@ function addSolution(solution, divSolutions) {
 
     const titre = document.createElement('h3')
     titre.className = "titreSolution"
-    titre.innerText = solution["nomSolution"]
+    titre.innerText = solution["nomSolution"]["fr"]
 
     const descriptif = document.createElement('p')
     descriptif.className = "descriptifSolution"
@@ -44,9 +44,11 @@ function addSolution(solution, divSolutions) {
 }
 
 function changeLangue(langue) {
+    const arrNomSolution = document.getElementsByClassName('titreSolution')
     const arrDescriptionSolution = document.getElementsByClassName('descriptifSolution')
  
     for (let i=0; i<arrDescriptionSolution.length;i++) {
+        arrNomSolution[i].innerText = solutions[i]["nomSolution"][langue]
         arrDescriptionSolution[i].innerText = solutions[i]["descriptionSolution"][langue]
     }
 }
