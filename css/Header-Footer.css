@@ -122,7 +122,8 @@ body {
  float: none;
 }
 #footer {
-	position: static;
+	position:absolute;
+	bottom:0;
 	padding-top : 1%;
 	text-align:center;
 }
