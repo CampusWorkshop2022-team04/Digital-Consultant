@@ -1,34 +1,58 @@
 [
     {
         "nomSolution" : "Site web" ,
-        "descriptionSolution" : "Assurez votre présence en ligne en publiant le contenu essentiel de votre activité sur un site internet entièrement personnalisé."
+        "descriptionSolution" : {
+            "fr" : "Assurez votre présence en ligne en publiant le contenu essentiel de votre activité sur un site internet entièrement personnalisé.",
+            "en" : "Ensure your online presence by publishing the essential content of your business on a fully personalized website"
+        }
     },
     {
         "nomSolution" : "E-Commerce",
-        "descriptionSolution" : "Optez pour une solution de site e-commerce vous permet de vendre 24 heures sur 24 et 7 jours sur 7."
+        "descriptionSolution" : {
+            "fr" : "Optez pour une solution de site e-commerce vous permet de vendre 24 heures sur 24 et 7 jours sur 7.",
+            "en" : "Opt for an e-commerce site solution that allows you to sell 24 hours a day, 7 days a week"
+        }
     },
     {
         "nomSolution" : "Création de marque",
-        "descriptionSolution" : "Nous créons l'identité visuelle originale de votre marque à travers la création de son logo, de sa charte graphique et la conception de votre site internet."
+        "descriptionSolution" : {
+            "fr" : "Nous créons l'identité visuelle originale de votre marque à travers la création de son logo, de sa charte graphique et la conception de votre site internet.",
+            "en" : "We create the original visual identity of your brand through the creation of its logo, its graphic charter and the design of your website."
+        } 
     },
     {
         "nomSolution" : "Stratégie de Communication",
-        "descriptionSolution" : "Optez pour un accompagnement sur mesure, mené par des professionnels de la communication."
+        "descriptionSolution" : {
+            "fr" : "Optez pour un accompagnement sur mesure, mené par des professionnels de la communication.",
+            "en" : "Opt for tailor-made support, led by communication professionals."
+        } 
     },
     {
         "nomSolution" : "Audit",
-        "descriptionSolution" : "Nous cherchons ensemble quels sont vos axes d’amélioration possibles, nous analysons les méthodes et outils mis en place par votre entreprise."
+        "descriptionSolution" : {
+            "fr" : "Nous cherchons ensemble quels sont vos axes d’amélioration possibles, nous analysons les méthodes et outils mis en place par votre entreprise.",
+            "en" : "We look together for your possible areas of improvement, we analyze the methods and tools put in place by your company."
+        } 
     },
     {
         "nomSolution" : "Chat Bot",
-        "descriptionSolution" : "Mettez l'intelligence artificielle au service de votre relation client. Automatisez les tâches à faible valeur ajoutée et créez des services interactifs."
+        "descriptionSolution" : {
+            "fr" : "Mettez l'intelligence artificielle au service de votre relation client. Automatisez les tâches à faible valeur ajoutée et créez des services interactifs.",
+            "en" : "Put artificial intelligence at the service of your customer relationship. Automate low value-added tasks and create interactive services."
+        } 
     },
     {
         "nomSolution" : "Application Mobile",
-        "descriptionSolution" : "Rendre votre entreprise mobile n’est plus un sujet de débat. Aujourd’hui vos clients et employés s’attendent à interagir avec vous du bout des doigts."
+        "descriptionSolution" : {
+            "fr" : "Rendre votre entreprise mobile n’est plus un sujet de débat. Aujourd’hui vos clients et employés s’attendent à interagir avec vous du bout des doigts.",
+            "en" : "Making your business mobile is no longer a subject of debate. Today your customers and employees expect to interact with you at your fingertips."
+        } 
     },
     {
         "nomSolution" : "ERP",
-        "descriptionSolution" : "Nos solutions ERP s’adaptent aux besoins et aux spécificités du marché de la prestation de services et répondent aux enjeux des professionnels."
+        "descriptionSolution" : {
+            "fr" : "Nos solutions ERP s’adaptent aux besoins et aux spécificités du marché de la prestation de services et répondent aux enjeux des professionnels.",
+            "en" : "Our ERP solutions adapt to the needs and specificities of the service delivery market and meet the challenges of professionals."
+        } 
     }
 ]
