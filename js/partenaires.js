@@ -35,8 +35,7 @@ function addPartenaire(part, ulPart) {
 
     const img = document.createElement('img')
     img.className = 'logo'
-    // img.src = part["logoURL"]
-    img.src = "img/inslogo.jfif"
+    img.src = part["logoURL"]
     img.alt = "Logo de " + part["nomPartenaire"]
 
     const p = document.createElement('p')
