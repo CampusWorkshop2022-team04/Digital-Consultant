@@ -35,3 +35,6 @@
 
 18 Janvier 2022 12h11 :
 - La page portfolio.html est maintenant fini avec chaque réalisation inscrite grâce aux fichiers JS et JSON
+
+18 Janvier 222 12h27 :
+- Les partenaires s'affichent automatiquement sur la page index.html grâce aux fichiers JS et JSON
