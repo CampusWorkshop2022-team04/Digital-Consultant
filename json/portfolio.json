@@ -2,36 +2,43 @@
     {
         "realisation" : "Réalisation 1",
         "descriptif" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et sapien eget eros fermentum convallis vitae at enim. Proin ornare tempor purus, eget mollis odio varius sed. Aliquam fermentum finibus velit. Nulla non dapibus lectus. Cras at enim pharetra, maximus dui id, ornare eros. Mauris varius iaculis quam, ac laoreet magna interdum quis. Mauris ac luctus sapien.",
-        "URLImage" : "../img/portfolio.jpg"
+        "URLImage" : "../img/portfolio.jpg",
+        "logoClient" : "../img/logo.png"
     },
     {
         "realisation" : "Réalisation 2",
         "descriptif" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et sapien eget eros fermentum convallis vitae at enim. Proin ornare tempor purus, eget mollis odio varius sed. Aliquam fermentum finibus velit. Nulla non dapibus lectus. Cras at enim pharetra, maximus dui id, ornare eros. Mauris varius iaculis quam, ac laoreet magna interdum quis. Mauris ac luctus sapien.",
-        "URLImage" : "../img/portfolio.jpg"
+        "URLImage" : "../img/portfolio.jpg",
+        "logoClient" : "../img/logo.png"
     },
     {
         "realisation" : "Réalisation 3",
         "descriptif" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et sapien eget eros fermentum convallis vitae at enim. Proin ornare tempor purus, eget mollis odio varius sed. Aliquam fermentum finibus velit. Nulla non dapibus lectus. Cras at enim pharetra, maximus dui id, ornare eros. Mauris varius iaculis quam, ac laoreet magna interdum quis. Mauris ac luctus sapien.",
-        "URLImage" : "../img/portfolio.jpg"
+        "URLImage" : "../img/portfolio.jpg",
+        "logoClient" : "../img/logo.png"
     },
     {
         "realisation" : "Réalisation 4",
         "descriptif" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et sapien eget eros fermentum convallis vitae at enim. Proin ornare tempor purus, eget mollis odio varius sed. Aliquam fermentum finibus velit. Nulla non dapibus lectus. Cras at enim pharetra, maximus dui id, ornare eros. Mauris varius iaculis quam, ac laoreet magna interdum quis. Mauris ac luctus sapien.",
-        "URLImage" : "../img/portfolio.jpg"
+        "URLImage" : "../img/portfolio.jpg",
+        "logoClient" : "../img/logo.png"
     }
     ,{
         "realisation" : "Réalisation 5",
         "descriptif" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et sapien eget eros fermentum convallis vitae at enim. Proin ornare tempor purus, eget mollis odio varius sed. Aliquam fermentum finibus velit. Nulla non dapibus lectus. Cras at enim pharetra, maximus dui id, ornare eros. Mauris varius iaculis quam, ac laoreet magna interdum quis. Mauris ac luctus sapien.",
-        "URLImage" : "../img/portfolio.jpg"
+        "URLImage" : "../img/portfolio.jpg",
+        "logoClient" : "../img/logo.png"
     },
     {
         "realisation" : "Réalisation 6",
         "descriptif" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et sapien eget eros fermentum convallis vitae at enim. Proin ornare tempor purus, eget mollis odio varius sed. Aliquam fermentum finibus velit. Nulla non dapibus lectus. Cras at enim pharetra, maximus dui id, ornare eros. Mauris varius iaculis quam, ac laoreet magna interdum quis. Mauris ac luctus sapien.",
-        "URLImage" : "../img/portfolio.jpg"
+        "URLImage" : "../img/portfolio.jpg",
+        "logoClient" : "../img/logo.png"
     },
     {
         "realisation" : "Réalisation 7",
         "descriptif" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et sapien eget eros fermentum convallis vitae at enim. Proin ornare tempor purus, eget mollis odio varius sed. Aliquam fermentum finibus velit. Nulla non dapibus lectus. Cras at enim pharetra, maximus dui id, ornare eros. Mauris varius iaculis quam, ac laoreet magna interdum quis. Mauris ac luctus sapien.",
-        "URLImage" : "../img/portfolio.jpg"
+        "URLImage" : "../img/portfolio.jpg",
+        "logoClient" : "../img/logo.png"
     }
 ]

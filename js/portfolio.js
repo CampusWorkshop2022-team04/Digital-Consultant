@@ -26,22 +26,34 @@ function addRex(rex, divPortfolio) {
     const divDocument = document.createElement('div')
     divDocument.className = 'document'
 
+    const divTitre = document.createElement('div')
+    divTitre.className = 'divTitreLogo'
+
     const h2 = document.createElement('h2')
     h2.innerText = rex["realisation"]
+
+    const imgLogo = document.createElement('img')
+    imgLogo.className= "logoClient"
+    imgLogo.src = rex["logoClient"]
+    imgLogo.alt = "Logo du client"
 
     const divRow = document.createElement('div')
     divRow.className = "row"
 
-    const img = document.createElement('img')
-    img.src = rex["URLImage"]
+    const imgReal = document.createElement('img')
+    imgReal.src = rex["URLImage"]
+    imgReal.alt = "Illustration de la réalisation effectué"
 
     const p = document.createElement('p')
     p.innerText = rex["descriptif"]
 
-    divRow.append(img)
+    divTitre.append(h2)
+    divTitre.append(imgLogo)
+
+    divRow.append(imgReal)
     divRow.append(p)
 
-    divDocument.append(h2)
+    divDocument.append(divTitre)
     divDocument.append(divRow)
 
     divPortfolio.append(divDocument)

@@ -10,6 +10,16 @@
 	padding : 1%;
 }
 
+.divTitreLogo {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1%;
+}
+
+.logoClient {
+	max-width: 35%;
+}
+
 .row {
 	display: flex;
 	flex-wrap: wrap;
@@ -44,5 +54,8 @@ img {
 	}
 	.row {
 		flex-wrap: nowrap;
+	}
+	.logoClient {
+		max-width: 25%;
 	}
 }
