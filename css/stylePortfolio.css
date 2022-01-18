@@ -1,0 +1,41 @@
+#main {
+	text-align : center;
+}
+.document {
+	background-color : #d7d7d745;
+	border-radius : 15px;
+	display:inline-block;
+	margin-top:5%;
+	margin :2%;
+	padding : 1%;
+}
+@media screen and (max-width: 874px) {
+	.document {
+		max-width:90%;
+	}
+}
+@media screen and (min-width: 875px) {
+	.document {
+		max-width:40%;
+	}
+}
+
+.row {
+	display: flex;
+}
+
+.document > .row >img {
+	border-radius:20px;
+	width:40%;
+	height:auto;
+	display:flex;
+	flex-direction:row;
+	margin:0;
+}
+.document > h2 {
+	text-align: center;
+}
+.document > .row > p {
+	text-align:justify;
+	padding-left: 2%;
+}
