@@ -38,3 +38,5 @@
 
 18 Janvier 222 12h27 :
 - Les partenaires s'affichent automatiquement sur la page index.html grâce aux fichiers JS et JSON
+- Toutes les pages du site ont été deployée
+- Améliorations du formulaire de contact
