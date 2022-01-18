@@ -61,7 +61,30 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 2%;
+    margin-bottom: 3%;
+}
+
+#explicationService, .divSolution {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: #d7d7d745 ;
+}
+
+#explicationService {
+    width: 80%;
+    margin-top: 2%;
+}
+
+.titreSolSer {
+    text-align: center;
+    margin-block-end: 0em;
+}
+
+.descriptifSolSer {
+    padding: 0% 1% 0% 1%;
+    margin-block-start: 0.5em;
+    text-align: justify;
 }
 
 #nosSolutions {
@@ -71,23 +94,8 @@
 }
 
 .divSolution {
-    display: flex;
-    flex-direction: column;
     flex-basis: 90%;
     margin-bottom: 2%;
-    border-radius: 15px;
-    background-color: #d7d7d745 ;
-}
-
-.titreSolution {
-    text-align: center;
-    margin-block-end: 0em;
-}
-
-.descriptifSolution {
-    padding: 0% 1% 0% 1%;
-    margin-block-start: 0.5em;
-    text-align: justify;
 }
 
 .imgservice {
