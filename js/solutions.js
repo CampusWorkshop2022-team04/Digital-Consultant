@@ -42,3 +42,11 @@ function addSolution(solution, divSolutions) {
 
     divSolutions.append(divSolution)
 }
+
+function changeLangue(langue) {
+    const arrDescriptionSolution = document.getElementsByClassName('descriptifSolution')
+ 
+    for (let i=0; i<arrDescriptionSolution.length;i++) {
+        arrDescriptionSolution[i].innerText = solutions[i]["descriptionSolution"][langue]
+    }
+}
