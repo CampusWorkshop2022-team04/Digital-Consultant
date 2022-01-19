@@ -3,6 +3,7 @@ var requestServicesURL = "https://raw.githubusercontent.com/CampusWorkshop2022-t
 var requestServices = new XMLHttpRequest();
 var services = []
 var serviceActif = ""
+var langueActif = "fr"
 
 requestServices.open('GET', requestServicesURL);
 
@@ -12,30 +13,17 @@ requestServices.send();
 requestServices.onload = function() {
     services = requestServices.response;
     console.log(services)
-    // presentService()
+    presentService(services)
 }
 
-// function presentService() {
-//     const nomService1 = document.getElementById('nom-service-1')
-//     nomService1.innerText = services[0]["nomService"]
 
-//     const descriptionService1 = document.getElementById('description-service-1')
-//     descriptionService1.innerText = services[0]['descriptionService']
+function presentService(serv) {
+    var arrTitleService = document.getElementsByClassName('title_text')
 
-
-//     const nomService2 = document.getElementById('nom-service-2')
-//     nomService2.innerText = services[1]["nomService"]
-
-//     const descriptionService2 = document.getElementById('description-service-2')
-//     descriptionService2.innerText = services[1]['descriptionService']
-
-
-//     const nomService3 = document.getElementById('nom-service-3')
-//     nomService3.innerText = services[2]["nomService"]
-
-//     const descriptionService3 = document.getElementById('description-service-3')
-//     descriptionService3.innerText = services[2]['descriptionService']
-// }
+    for (let i=0; i<arrTitleService.length; i++) {
+        arrTitleService[i].innerHTML = serv[i]["nomService"][langueActif]
+    }
+}
 
 
 function expliquerService(service) {
@@ -65,8 +53,8 @@ function expliquerService(service) {
             default :
                 numService = 2
         }
-        h3.innerText = services[numService]["nomService"]
-        p.innerText = services[numService]["descriptionService"]["fr"]
+        h3.innerText = services[numService]["nomService"][langueActif]
+        p.innerText = services[numService]["descriptionService"][langueActif]
 
         divExplication.append(h3)
         divExplication.append(p)
@@ -75,6 +63,16 @@ function expliquerService(service) {
         divExplication.removeChild(h3)
         divExplication.removeChild(p)
     }
+}
+
+
+function changeLangueServ(lang) {
+    langueActif = lang
+    presentService(services)
+    if (serviceActif!="") {
+        expliquerService(services)
+    }
+    
 }
 
 

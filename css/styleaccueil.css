@@ -53,6 +53,7 @@
 }
 
 #Nospartenaires{
+    overflow: hidden;
     flex-direction: row;
     display:  flex;
     flex-wrap: wrap;
@@ -103,14 +104,9 @@
     text-align: center;
 }
 
-#formulaire{
-    padding: 1%;
-    padding-right: 15%;
-    text-align: left;
-}
-
 .btn{
     font-size: x-large;
+    margin-top:2%;
 }
 
 .logo_partenaires li{
