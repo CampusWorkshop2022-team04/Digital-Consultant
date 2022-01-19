@@ -18,7 +18,7 @@ requestPortfolio.onload = function() {
 function presentPortfolio(pf) {
     const main = document.getElementById('main')
 
-    for (let i=0; i<pf.length; i++) {
+    for (let i=1; i<pf.length; i++) {
         addRex(pf[i], main)
     }
 }
@@ -46,6 +46,7 @@ function addRex(rex, divPortfolio) {
     imgReal.alt = "Illustration de la réalisation effectué"
 
     const p = document.createElement('p')
+    p.className = "pDescriptif"
     p.innerText = rex["descriptif"][langueActif]
 
     divTitre.append(h2)
@@ -59,3 +60,36 @@ function addRex(rex, divPortfolio) {
 
     divPortfolio.append(divDocument)
 }
+
+function changeLangue(langue) {
+    langueActif = langue
+    document.getElementById('titlePortfolio').innerText = portfolio[0]["titrePortfolio"][langueActif]
+    arr = document.getElementsByClassName('pDescriptif')
+
+    for (let i=0; i< arr.length;i++) {
+        arr[i].innerText = portfolio[i+1]["descriptif"][langueActif]
+    }
+}
+
+
+document.getElementById('BtnFr').addEventListener(
+    'click',
+    function() {
+        changeLangue('fr')
+    }
+)
+
+document.getElementById('BtnAng').addEventListener(
+    'click',
+    function() {
+        changeLangue('en')
+    }
+)
+
+document.getElementById('BtnEsp').addEventListener(
+    'click',
+    function() {
+        changeLangue('es')
+    }
+)
+
