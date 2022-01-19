@@ -56,3 +56,6 @@
 
 19 Janvier 2022 15h39 :
 - La page services.html est maintenant complètement fini
+
+19 Janvier 2022 16h48 :
+- La page portfolio.html possède maintenant la fonctionnalité multilingue sur son contenu.
