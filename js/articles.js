@@ -2,6 +2,7 @@ var requestArticlesURL = 'https://raw.githubusercontent.com/CampusWorkshop2022-t
 
 var requestArticles = new XMLHttpRequest();
 var articles = []
+var langueActif = "fr"
 
 requestArticles.open('GET', requestArticlesURL);
 
@@ -41,7 +42,7 @@ function addArticles(divArticle) {
 
         const commentaire = document.createElement('p')
         commentaire.className = "commentaireArticleBlog"
-        commentaire.innerText = articles[i]["commentaire"]
+        commentaire.innerText = articles[i]["commentaire"][langueActif]
 
         article.append(auteur)
         article.append(commentaire)
