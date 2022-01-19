@@ -1,4 +1,11 @@
 [
+    { 
+        "titreService": {
+            "fr" : "Nos services",
+            "en" : "Our services",
+            "es" : "Nuestros servicios"
+        }
+    },
     {
         "nomService" : {
             "fr" : "Phase d'audit",
