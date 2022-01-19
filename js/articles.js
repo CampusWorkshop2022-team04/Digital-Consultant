@@ -38,7 +38,7 @@ function addArticles(divArticle) {
 
         const auteur = document.createElement('h5')
         auteur.className = "auteurArticleBlog"
-        auteur.innerText = articles[i]["auteur"] + " le " + articles[i]["date"]
+        auteur.innerText = articles[i]["auteur"] + ", " + articles[i]["date"]
 
         const commentaire = document.createElement('p')
         commentaire.className = "commentaireArticleBlog"
