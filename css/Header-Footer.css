@@ -63,11 +63,17 @@
 		width:15%;
 		height:auto;
 	}
+	
+	  #langue {
+        position:static;
+    	}
+	
 	.logo {
 		width : 10%;
 		min-width:35px;
 		display:inline-block;
 		vertical-align: middle;
+		 margin-bottom:0.5%;
 	}
 	#CGU,#Ancre, #MentionLegal {
 	width:20%;
@@ -150,10 +156,4 @@ body {
 #copyR {
 	text-align:center;
 }
-@font-face {
-	font-family: "Libre_Baskerville";
-	src: url("../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf");
-}
-body {
-  font-family: "LibreBaskerville", LibreBaskerville-Regular;
-}
+
