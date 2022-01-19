@@ -3,7 +3,7 @@ var requestServicesURL = "https://raw.githubusercontent.com/CampusWorkshop2022-t
 var requestServices = new XMLHttpRequest();
 var services = []
 var serviceActif = ""
-var langueActif = "es"
+var langueActif = "fr"
 
 requestServices.open('GET', requestServicesURL);
 
@@ -19,14 +19,10 @@ requestServices.onload = function() {
 
 function presentService(serv) {
     var arrTitleService = document.getElementsByClassName('title_text')
-    console.log(arrTitleService)
 
     for (let i=0; i<arrTitleService.length; i++) {
-        console.log(serv[i]["nomService"][langueActif])
         arrTitleService[i].innerHTML = serv[i]["nomService"][langueActif]
-        console.log(arrTitleService[i])
     }
-    console.log(arrTitleService)
 }
 
 
@@ -70,10 +66,13 @@ function expliquerService(service) {
 }
 
 
-function changeLangue(lang) {
+function changeLangueServ(lang) {
     langueActif = lang
     presentService(services)
-    expliquerService(services)
+    if (serviceActif!="") {
+        expliquerService(services)
+    }
+    
 }
 
 
