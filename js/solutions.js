@@ -19,7 +19,7 @@ requestSolutions.onload = function() {
 function presentSolutions(solu)  {
     const nosSolutions = document.getElementById('nosSolutions')
 
-    for (let i= 0; i<solu.length; i++) {
+    for (let i= 1; i<solu.length; i++) {
         addSolution(solu[i], nosSolutions)
     }
 
@@ -46,11 +46,12 @@ function addSolution(solution, divSolutions) {
 
 function changeLangueSol(langue) {
     langueActif = langue
+    document.getElementById('titreSol').innerText = solutions[0]["titreSolution"][langueActif]
     const arrNomSolution = document.getElementById('nosSolutions').getElementsByClassName('titreSolSer')
     const arrDescriptionSolution = document.getElementById('nosSolutions').getElementsByClassName('descriptifSolSer')
  
     for (let i=0; i<arrDescriptionSolution.length;i++) {
-        arrNomSolution[i].innerText = solutions[i]["nomSolution"][langue]
-        arrDescriptionSolution[i].innerText = solutions[i]["descriptionSolution"][langue]
+        arrNomSolution[i].innerText = solutions[i+1]["nomSolution"][langue]
+        arrDescriptionSolution[i].innerText = solutions[i+1]["descriptionSolution"][langue]
     }
 }

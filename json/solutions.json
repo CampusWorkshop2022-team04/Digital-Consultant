@@ -1,5 +1,12 @@
 [
     {
+        "titreSolution" : {
+            "fr" : "Nos Solutions",
+            "en" : "Our solutions",
+            "es" : "Nuestras soluciones"
+        }
+    },
+    {
         "nomSolution" : {
             "fr" : "Site web",
             "en" : "Website",
