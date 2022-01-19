@@ -55,3 +55,25 @@ function changeLangueSol(langue) {
         arrDescriptionSolution[i].innerText = solutions[i+1]["descriptionSolution"][langue]
     }
 }
+
+
+document.getElementById('BtnFr').addEventListener(
+    'click',
+    function() {
+        changeLangueSol('fr')
+    }
+)
+
+document.getElementById('BtnAng').addEventListener(
+    'click',
+    function() {
+        changeLangueSol('en')
+    }
+)
+
+document.getElementById('BtnEsp').addEventListener(
+    'click',
+    function() {
+        changeLangueSol('es')
+    }
+)
