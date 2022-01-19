@@ -53,6 +53,7 @@
 	padding-left: 1%;
 	padding-right: 1%;
 	border-radius:5px;
+	max-width: 100%;
 }
 .important {
 	color: red;
