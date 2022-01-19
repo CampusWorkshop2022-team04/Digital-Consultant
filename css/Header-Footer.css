@@ -152,8 +152,8 @@ body {
 }
 @font-face {
 	font-family: "Cinzel";
-	src: url("../fonts/cinzel/CinzelDecorative-Regular.otf");
+	src: url("../fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf");
 }
 body {
-  font-family: "Cinzel", CinzelDecorative-regular;
+  font-family: "LibreBaskerville", LibreBaskerville-Regular;
 }
