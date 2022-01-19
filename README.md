@@ -53,3 +53,6 @@
 19 Janvier 2022 15h30 : 
 - fonction multilingue fonctionelle sur la page service 
 - traduction de tout les contenus du site en anglais et français 
+
+19 Janvier 2022 15h39 :
+- La page services.html est maintenant complètement fini
