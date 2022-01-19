@@ -2,6 +2,7 @@ var requestPortfolioURL = 'https://raw.githubusercontent.com/CampusWorkshop2022-
 
 var requestPortfolio = new XMLHttpRequest();
 var solutions = []
+var langueActif = "fr"
 
 requestPortfolio.open('GET', requestPortfolioURL);
 
@@ -45,7 +46,7 @@ function addRex(rex, divPortfolio) {
     imgReal.alt = "Illustration de la réalisation effectué"
 
     const p = document.createElement('p')
-    p.innerText = rex["descriptif"]
+    p.innerText = rex["descriptif"][langueActif]
 
     divTitre.append(h2)
     divTitre.append(imgLogo)
