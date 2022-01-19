@@ -1,7 +1,11 @@
 [
     {
         "realisation" : "Réalisation 1",
-        "descriptif" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et sapien eget eros fermentum convallis vitae at enim. Proin ornare tempor purus, eget mollis odio varius sed. Aliquam fermentum finibus velit. Nulla non dapibus lectus. Cras at enim pharetra, maximus dui id, ornare eros. Mauris varius iaculis quam, ac laoreet magna interdum quis. Mauris ac luctus sapien.",
+        "descriptif" : {
+            "fr" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in lobortis purus. Praesent aliquam sapien non dui imperdiet viverra et vel ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum at justo eget pellentesque. Proin nunc erat, tempus vel tincidunt et, molestie sed ipsum. Vestibulum cursus mauris ut.",
+            "en" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in lobortis purus. Praesent aliquam sapien non dui imperdiet viverra et vel ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum at justo eget pellentesque. Proin nunc erat, tempus vel tincidunt et, molestie sed ipsum. Vestibulum cursus mauris ut.",
+            "es" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in lobortis purus. Praesent aliquam sapien non dui imperdiet viverra et vel ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum at justo eget pellentesque. Proin nunc erat, tempus vel tincidunt et, molestie sed ipsum. Vestibulum cursus mauris ut.",
+        },
         "URLImage" : "../img/portfolio.jpg",
         "logoClient" : "../img/logo.png"
     },
