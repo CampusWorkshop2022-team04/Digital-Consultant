@@ -4,18 +4,65 @@
 
 #histoire {
 	text-align: center;
+	display:inline-block;
 }
 #Nous {
-	text-align:right;
+	display:inline-block;
+	margin:2%;
 }
 #implentation {
-	text-align : left;
+	text-align : center;
+}
+#Consulting {
+	max-width:100%;
+	margin-top:2%;
+}
+h2 {
+	text-align:center;
 }
 #legende1 {
 	background-color:#0E7894;
-	color :white;
+	border-radius:15px;
+	border:1px solid #8c8c8c;
+	display:inline-block;
+	font-family:Arial;
+	text-decoration:none;
+	color:white;
+	margin:2px 5px;
+	padding:0.5%;
+	box-shadow:none;
+	text-align:center;
 }
 #legende2 {
 	background-color:#168f5d;
-	color :white;
+	border-radius:15px;
+	border:1px solid #8c8c8c;
+	display:inline-block;
+	font-family:Arial;
+	text-decoration:none;
+	color:white;
+	margin:2px 5px;
+	padding:0.5%;
+	box-shadow:none;
+	text-align:center;
+}
+@media screen and (min-width: 1144px) {
+	#middle {
+		display:flex;
+		vertical-align:middle;
+}
+	#Nous{
+		width:55%;
+	}
+	#implentation>img{
+	width:45%;
+	}
+}
+@media screen and (max-width: 1144px) {
+	#implentation>img, #histoire>img {
+		width:90%;
+	}
+	#histoire>img {
+		 width:90%;
+	 }
 }
