@@ -96,3 +96,24 @@ document.getElementById('service3').addEventListener(
         expliquerService('conception')
     }
 )
+
+document.getElementById('BtnFr').addEventListener(
+    'click',
+    function() {
+        changeLangueServ('fr')
+    }
+)
+
+document.getElementById('BtnAng').addEventListener(
+    'click',
+    function() {
+        changeLangueServ('en')
+    }
+)
+
+document.getElementById('BtnEsp').addEventListener(
+    'click',
+    function() {
+        changeLangueServ('es')
+    }
+)
