@@ -129,3 +129,10 @@ body {
 #copyR {
 	text-align:center;
 }
+@font-face {
+	font-family: "Cinzel";
+	src: url("../Cinzel.otf");
+}
+body {
+  font-family: "Cinzel", serif;
+}
