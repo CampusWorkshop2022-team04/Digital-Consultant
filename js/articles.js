@@ -32,7 +32,7 @@ function presentArticle() {
 
 function addArticles(divArticle) {
     console.log(articles.length)
-    for (let i=0; i<articles.length; i++) {
+    for (let i=1; i<articles.length; i++) {
         const article = document.createElement('div')
         article.className = "divArticleBlog"
 
@@ -51,3 +51,34 @@ function addArticles(divArticle) {
     }
 
 }
+
+function changeLangue(langue) {
+    langueActif = langue
+    document.getElementById('titleArticles').innerText = articles[0]["titreArticle"][langueActif]
+    const arr = document.getElementsByClassName('commentaireArticleBlog')
+
+    for (let i=0; i<arr.length;i++) {
+        arr[i].innerText = articles[i+1]["commentaire"][langueActif]
+    }
+}
+
+document.getElementById('BtnFr').addEventListener(
+    'click',
+    function() {
+        changeLangue('fr')
+    }
+)
+
+document.getElementById('BtnAng').addEventListener(
+    'click',
+    function() {
+        changeLangue('en')
+    }
+)
+
+document.getElementById('BtnEsp').addEventListener(
+    'click',
+    function() {
+        changeLangue('es')
+    }
+)
