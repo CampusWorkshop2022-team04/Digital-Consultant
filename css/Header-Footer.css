@@ -152,6 +152,10 @@ body {
 }
 @font-face {
 	font-family: "Cinzel";
+	src: url("../font/Cinzel.otf");
+}
+body {
+  font-family: "Cinzel", serif;
 	src: url("../Cinzel.otf");
 }
 body {
