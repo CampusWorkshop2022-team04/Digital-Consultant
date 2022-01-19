@@ -21,7 +21,7 @@ function presentService(serv) {
     var arrTitleService = document.getElementsByClassName('title_text')
 
     for (let i=0; i<arrTitleService.length; i++) {
-        arrTitleService[i].innerHTML = serv[i]["nomService"][langueActif]
+        arrTitleService[i].innerHTML = serv[i+1]["nomService"][langueActif]
     }
 }
 
@@ -45,13 +45,13 @@ function expliquerService(service) {
         var numService = ""
         switch (service) {
             case 'audit' :
-                numService = 0
+                numService = 1
                 break;
             case 'conseil' :
-                numService = 1
+                numService = 2
                 break
             default :
-                numService = 2
+                numService = 3
         }
         h3.innerText = services[numService]["nomService"][langueActif]
         p.innerText = services[numService]["descriptionService"][langueActif]
@@ -68,6 +68,7 @@ function expliquerService(service) {
 
 function changeLangueServ(lang) {
     langueActif = lang
+    document.getElementById('titreServ').innerText = services[0]["titreService"][langueActif]
     presentService(services)
     if (serviceActif!="") {
         expliquerService(services)
