@@ -38,6 +38,10 @@
 		width:10%;
 		height:auto;
 	}
+	#langue{
+	position:absolute,
+	}
+	
 	.logo {
 		width : 10%;
 		min-width:35px;
