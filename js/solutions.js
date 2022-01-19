@@ -2,6 +2,7 @@ var requestSolutionsURL = 'https://raw.githubusercontent.com/CampusWorkshop2022-
 
 var requestSolutions = new XMLHttpRequest();
 var solutions = []
+var langueActif = "en"
 
 requestSolutions.open('GET', requestSolutionsURL);
 
@@ -31,11 +32,11 @@ function addSolution(solution, divSolutions) {
 
     const titre = document.createElement('h3')
     titre.className = "titreSolSer"
-    titre.innerText = solution["nomSolution"]["fr"]
+    titre.innerText = solution["nomSolution"][langueActif]
 
     const descriptif = document.createElement('p')
     descriptif.className = "descriptifSolSer"
-    descriptif.innerText = solution["descriptionSolution"]["fr"]
+    descriptif.innerText = solution["descriptionSolution"][langueActif]
 
     divSolution.append(titre)
     divSolution.append(descriptif)
@@ -44,6 +45,7 @@ function addSolution(solution, divSolutions) {
 }
 
 function changeLangue(langue) {
+    langueActif = langue
     const arrNomSolution = document.getElementsByClassName('titreSolution')
     const arrDescriptionSolution = document.getElementsByClassName('descriptifSolution')
  
