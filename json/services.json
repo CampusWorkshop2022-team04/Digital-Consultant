@@ -1,23 +1,38 @@
 [
     {
-        "nomService" : "Phase d'audit",
+        "nomService" : {
+            "fr" : "Phase d'audit",
+            "en" : "Audit phase",
+            "es" : "Etapa de auditoría"
+        },
         "descriptionService" : {
             "fr" : "Ici nous récoltons un maximum d'informations sur votre entreprise, nous prenons le temps avec vous d'identifier vos difficultés et vos facilités ainsi que les réalités de gestion courante auxquelles vous êtes confrontées. Ceci afin de vous orienter vers la solution dont vous avez réellement besoin",
-            "en" : "Here we collect as much information as possible about your business, we take the time with you to identify your difficulties and your facilities as well as the day-to-day management realities you face. This is to guide you towards the solution you really need."
+            "en" : "Here we collect as much information as possible about your business, we take the time with you to identify your difficulties and your facilities as well as the day-to-day management realities you face. This is to guide you towards the solution you really need.",
+            "es" : "Aquí recopilamos la mayor cantidad de información posible sobre su empresa, nos tomamos el tiempo con usted para identificar sus dificultades y sus oportunidades, así como las realidades de gestión diarias a las que se enfrenta. Esto es para guiarlo hacia la solución que realmente necesita."
         } 
     },
     {
-        "nomService" : "Phase de conseil",
+        "nomService" : {
+            "fr" : "Phase de conseil",
+            "en" : "Counseling phase",
+            "es" : "Fase de asesoramiento"
+        },
         "descriptionService" : {
             "fr" : "À la suite de la phase d'audit seront identifiées les priorités en matière de conseil et de conception. À cette étape un premier bilan est effectué dans lequel nous présentons les résultats de l'audit et émettons des conseils pour la phase de conception",
-            "en" : "Following the audit phase, the priorities for advice and design will be identified. At this stage, a first assessment is made in which we present the results of the audit and issue advice for the design phase"
+            "en" : "Following the audit phase, the priorities for advice and design will be identified. At this stage, a first assessment is made in which we present the results of the audit and issue advice for the design phase",
+            "es" : "Después de la fase de auditoría, se identificarán las prioridades de asesoramiento y diseño. En esta etapa se realiza una primera evaluación en la que presentamos los resultados de la auditoría y emitimos recomendaciones para la fase de diseño."
         } 
     },
     {
-        "nomService" : "Phase de conception",
+        "nomService" : {
+            "fr" : "Phase de conception",
+            "en" : "Conception phase",
+            "es" : "Fase de concepción"
+        },
         "descriptionService" : {
             "fr" : "La phase de conception peut soit être assurée par nos équipes soit être déléguée à un de nos nombreux partenaires au Canada en Espagne et en France et prochainement aux États-Unis. Nous proposons des solutions adaptées à tous types de clientèle et tous budgets confondus. Seulement nous sommes spécialistes dans les méthodes agiles et privilégions une approche sur mesure dans notre conception en interne. C'est pourquoi nous n'hésiterons pas à vous réorienter vers des solutions clefs en main ou vous dire de manière impartiale si les opportunités que vous avez identifiées valent réellement la peine pour votre entreprise.",
-            "en" : "The design phase can either be carried out by our teams or be delegated to one of our many partners in Canada, Spain and France and soon in the United States. We offer solutions adapted to all types of customers and all budgets. Only we are specialists in agile methods and favor a tailor-made approach in our in-house design. This is why we will not hesitate to redirect you to turnkey solutions or tell you impartially if the opportunities you have identified are truly worthwhile for your business."
+            "en" : "The design phase can either be carried out by our teams or be delegated to one of our many partners in Canada, Spain and France and soon in the United States. We offer solutions adapted to all types of customers and all budgets. Only we are specialists in agile methods and favor a tailor-made approach in our in-house design. This is why we will not hesitate to redirect you to turnkey solutions or tell you impartially if the opportunities you have identified are truly worthwhile for your business.",
+            "es" : "Después de la fase de auditoría, se identificarán las prioridades de asesoramiento y diseño. En esta etapa se realiza una primera evaluación en la que presentamos los resultados de la auditoría y emitimos recomendaciones para la fase de diseño."
         } 
     }
 ]
