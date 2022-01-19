@@ -1,11 +1,11 @@
 {
     "classHTML" : ["URL", "NAME","CORP", "ADRESSE", "EMAIL", "CONTACT", "PN", "PAYS"],
-    "Website URL" : "URL",
-    "Website Name" : "NAME",
-    "Name of the business" : "CORP",
-    "Address of the business" : "ADRESSE",
-    "Email" : "EMAIL",
-    "link to contact" : "CONTACT",
-    "Phone number" : "PN",
+    "Website URL" : " URL",
+    "Website Name" : " NAME",
+    "Name of the business" : " CORP",
+    "Address of the business" : " ADRESSE",
+    "Email" : " EMAIL",
+    "link to contact" : " CONTACT",
+    "Phone number" : " PN",
     "Pays" :" PAYS"
 }
