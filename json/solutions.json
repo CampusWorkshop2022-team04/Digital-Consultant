@@ -2,81 +2,98 @@
     {
         "nomSolution" : {
             "fr" : "Site web",
-            "en" : "Website"
+            "en" : "Website",
+            "es" : "Sitio web"
         },
         "descriptionSolution" : {
             "fr" : "Assurez votre présence en ligne en publiant le contenu essentiel de votre activité sur un site internet entièrement personnalisé.",
-            "en" : "Ensure your online presence by publishing the essential content of your business on a fully personalized website"
+            "en" : "Ensure your online presence by publishing the essential content of your business on a fully personalized website",
+            "es" : "Asegure su presencia en línea publicando el contenido esencial de su negocio en un sitio web totalmente personalizado."
         }
     },
     {
         "nomSolution" : {
             "fr" : "E-Commerce",
-            "en" : "Ecommerce"
+            "en" : "Ecommerce",
+            "es" : "Comercio electrónico"
+
         },
         "descriptionSolution" : {
             "fr" : "Optez pour une solution de site e-commerce vous permet de vendre 24 heures sur 24 et 7 jours sur 7.",
-            "en" : "Opt for an e-commerce site solution that allows you to sell 24 hours a day, 7 days a week"
+            "en" : "Opt for an e-commerce site solution that allows you to sell 24 hours a day, 7 days a week",
+            "es" : "Optar por una solución de sitio de comercio electrónico le permite vender las 24 horas del día, los 7 días de la semana."
         }
     },
     {
         "nomSolution" : {
             "fr" : "Création de marque",
-            "en" : "Brand Creation"
+            "en" : "Brand Creation",
+            "es" : "Création de marque"
         },
         "descriptionSolution" : {
             "fr" : "Nous créons l'identité visuelle originale de votre marque à travers la création de son logo, de sa charte graphique et la conception de votre site internet.",
-            "en" : "We create the original visual identity of your brand through the creation of its logo, its graphic charter and the design of your website."
+            "en" : "We create the original visual identity of your brand through the creation of its logo, its graphic charter and the design of your website.",
+            "es" : "Creamos la identidad visual original de tu marca a través de la creación de su logo, su carta gráfica y el diseño de tu sitio web."
         } 
     },
     {
         "nomSolution" : {
             "fr" : "Stratégie de Communication",
-            "en" : "Communication strategy"
+            "en" : "Communication strategy",
+            "es" : "Stratégie de Communication"
         },
         "descriptionSolution" : {
             "fr" : "Optez pour un accompagnement sur mesure, mené par des professionnels de la communication.",
-            "en" : "Opt for tailor-made support, led by communication professionals."
+            "en" : "Opt for tailor-made support, led by communication professionals.",
+            "es" : "Opte por un soporte personalizado, dirigido por profesionales de la comunicación."
         } 
     },
     {
         "nomSolution" : {
             "fr" : "Audit",
-            "en" : "Audit"
+            "en" : "Audit",
+            "es" : "Auditoría"
         },
         "descriptionSolution" : {
             "fr" : "Nous cherchons ensemble quels sont vos axes d’amélioration possibles, nous analysons les méthodes et outils mis en place par votre entreprise.",
-            "en" : "We look together for your possible areas of improvement, we analyze the methods and tools put in place by your company."
+            "en" : "We look together for your possible areas of improvement, we analyze the methods and tools put in place by your company.",
+            "es" : "Buscamos juntos tus posibles áreas de mejora, analizamos los métodos y herramientas implantadas por tu empresa."
         } 
     },
     {
         "nomSolution" : {
             "fr" : "Chat Bot",
-            "en" : "Chat Bot"
+            "en" : "Chat Bot",
+            "es" : "Chat Bot"
         },
         "descriptionSolution" : {
             "fr" : "Mettez l'intelligence artificielle au service de votre relation client. Automatisez les tâches à faible valeur ajoutée et créez des services interactifs.",
-            "en" : "Put artificial intelligence at the service of your customer relationship. Automate low value-added tasks and create interactive services."
+            "en" : "Put artificial intelligence at the service of your customer relationship. Automate low value-added tasks and create interactive services.",
+            "es" : "Pon la inteligencia artificial al servicio de tu relación con el cliente. Automatice tareas de bajo valor agregado y cree servicios interactivos."
         } 
     },
     {
         "nomSolution" : {
             "fr" : "Application Mobile",
-            "en" : "Mobile App"
+            "en" : "Mobile App",
+            "es" : "Aplicación movil"
         },
         "descriptionSolution" : {
             "fr" : "Rendre votre entreprise mobile n’est plus un sujet de débat. Aujourd’hui vos clients et employés s’attendent à interagir avec vous du bout des doigts.",
-            "en" : "Making your business mobile is no longer a subject of debate. Today your customers and employees expect to interact with you at your fingertips."
+            "en" : "Making your business mobile is no longer a subject of debate. Today your customers and employees expect to interact with you at your fingertips.",
+            "es" : "Hacer que su negocio sea móvil ya no es un tema de debate. Hoy sus clientes y empleados esperan interactuar con usted al alcance de su mano."
         } 
     },
     {
         "nomSolution" : {
             "fr" : "ERP",
-            "en" : "ERP"
+            "en" : "ERP",
+            "es" : "ERP"
         },
         "descriptionSolution" : {
             "fr" : "Nos solutions ERP s’adaptent aux besoins et aux spécificités du marché de la prestation de services et répondent aux enjeux des professionnels.",
-            "en" : "Our ERP solutions adapt to the needs and specificities of the service delivery market and meet the challenges of professionals."
+            "en" : "Our ERP solutions adapt to the needs and specificities of the service delivery market and meet the challenges of professionals.",
+            "es" : "Nuestras soluciones ERP se adaptan a las necesidades y especificidades del mercado de prestación de servicios y responden a los retos de los profesionales."
         } 
     }
 ]
