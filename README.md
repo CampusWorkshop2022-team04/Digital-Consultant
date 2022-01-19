@@ -45,3 +45,11 @@
 
 18 Janvier 2022 18h29 :
 - Amélioration de la page services.html qui explique chaque service proposé par Digital Consultant
+
+19 Janvier 2022 13h00 :
+- Implatention des boutons afin de choisir la langue de la page 
+- rendu responsive de la page index 
+
+19 Janvier 2022 15h30 : 
+- fonction multilingue fonctionelle sur la page service 
+- traduction de tout les contenus du site en anglais et français 
