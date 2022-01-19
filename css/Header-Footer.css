@@ -64,8 +64,9 @@
 		height:auto;
 	}
 	
-	  #langue {
-        position:static;
+	#langue {
+        	position:static;
+		margin-top:0.5%;
     	}
 	
 	.logo {
@@ -73,7 +74,7 @@
 		min-width:35px;
 		display:inline-block;
 		vertical-align: middle;
-		 margin-bottom:0.5%;
+		 
 	}
 	#CGU,#Ancre, #MentionLegal {
 	width:20%;
@@ -94,6 +95,12 @@
 	width:90%;
 	height:auto;
 	}
+	
+	#langue {
+        position:static;
+	margin-top:0.5%;
+    	}
+	
 	.logo {
 		width : 20%;
 		min-width:55px;
