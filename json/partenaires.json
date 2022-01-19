@@ -1,7 +1,11 @@
 [
     {
         "nomPartenaire" : "Partenaire 1",
-        "descriptifPartenaire" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in lobortis purus. Praesent aliquam sapien non dui imperdiet viverra et vel ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum at justo eget pellentesque. Proin nunc erat, tempus vel tincidunt et, molestie sed ipsum. Vestibulum cursus mauris ut.",
+        "descriptifPartenaire" : {
+            "fr" : "Fr : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in lobortis purus. Praesent aliquam sapien non dui imperdiet viverra et vel ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum at justo eget pellentesque. Proin nunc erat, tempus vel tincidunt et, molestie sed ipsum. Vestibulum cursus mauris ut.",
+            "en" : "En :Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in lobortis purus. Praesent aliquam sapien non dui imperdiet viverra et vel ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum at justo eget pellentesque. Proin nunc erat, tempus vel tincidunt et, molestie sed ipsum. Vestibulum cursus mauris ut.",
+            "es" : "Es : Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam in lobortis purus. Praesent aliquam sapien non dui imperdiet viverra et vel ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque bibendum at justo eget pellentesque. Proin nunc erat, tempus vel tincidunt et, molestie sed ipsum. Vestibulum cursus mauris ut."
+        } ,
         "logoURL" : "img/inslogo.jfif"
     },
     {
