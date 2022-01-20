@@ -62,3 +62,6 @@
 
 19 Janvier 2022 17h42 :
 - La page index.html possède désormais la fonctionnalité multilingue sur son contenu.
+
+20 Janvier 2022 10h23 :
+- La page "A Propos" possède désormais la fonctionnalité multilingue sur son contenu.
