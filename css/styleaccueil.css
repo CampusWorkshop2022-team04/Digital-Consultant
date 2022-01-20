@@ -21,6 +21,7 @@
     width: 50%;
     flex-grow: 1;
     flex-shrink: 1;
+    text-align: justify;
      
 }
 
@@ -48,6 +49,7 @@
     width: 50%;
     flex-grow: 1;
     flex-shrink: 1;
+    text-align: justify;
      
 }
 
@@ -83,6 +85,7 @@
     width: 50%;
     flex-grow: 1;
     flex-shrink: 1;
+    text-align: justify;
 }
 
 #imgNosPartenaires{
