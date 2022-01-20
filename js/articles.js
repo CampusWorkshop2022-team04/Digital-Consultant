@@ -11,7 +11,6 @@ requestArticles.send();
 
 requestArticles.onload = function() {
     articles = requestArticles.response;
-    console.log(articles)
     presentArticle()
 }
 
