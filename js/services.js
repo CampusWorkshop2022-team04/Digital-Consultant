@@ -1,10 +1,10 @@
 // Variable globale
 var services = []
 var serviceActif = ""
-var numService = ""
+var numService = 0
 var langueActif = "fr"
 
-
+// Partie exécuté au lancement de la page permettant de récupérer les données JSON stockées sur GitHub et de les convertir en JS
 var requestServicesURL = "https://raw.githubusercontent.com/CampusWorkshop2022-team04/Digital-Consultant/main/json/services.json";
 
 var requestServices = new XMLHttpRequest();
@@ -17,11 +17,11 @@ requestServices.send();
 
 requestServices.onload = function() {
     services = requestServices.response;
-    document.getElementById('titreServ').innerText = services[0]["titreService"][langueActif]
-    presentService()
+    document.getElementById('titreServ').innerText = services[0]["titreService"][langueActif] // Affichage du titre des services dans la langue actif
+    presentService() // Présentation des services
 }
 
-// Foonction présentant les 3 services propsés par Digital Consultant dans la langue actif
+// Fonction présentant les 3 services propsés par Digital Consultant dans la langue actif
 function presentService() {
     var arrTitleService = document.getElementsByClassName('title_text')
 
