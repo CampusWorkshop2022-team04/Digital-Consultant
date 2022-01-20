@@ -1,6 +1,8 @@
 {
-    {
-        ""
+    "titreHistoire" : {
+        "fr" : "Notre Histoire",
+        "en" : "Our History",
+        "es" : "Nuestra Historia"
     },
     "AProposTitre": {
         "fr": "A propos de nous",
