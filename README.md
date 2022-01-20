@@ -15,9 +15,7 @@ Nous avons décidé de le tenir comme un journal de bord en détaillant chaque j
 13 janvier 2022 18h10 :
 - index.html et blog.html (article automatique grâce aux fichiers JS et JSON) ont leur contenu de complété, il nous reste à finir le design de ces pages-là ainsi que de contact.html
 
-
 14 janvier 2022  16h30 :
-
 - Le design du site a été entièrement créé sur figma
 - L'accueil, la page contact, le blog et les documents légaux ont été adapté au style du site créé le matin même
 - L'en-tête du site et le pied de page sont enfin terminé 
