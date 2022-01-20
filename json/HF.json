@@ -1,8 +1,8 @@
 {
     "header":{
         "btnnosServices":{
-            "fr":"nos services",
-            "en":"our Services",
+            "fr":"Nos services",
+            "en":"Our Services",
             "es":"Nuestros servicios"
         },
 
@@ -26,7 +26,7 @@
 
         "btnContact":{
             "fr": "Nous contacter",
-            "en":"Contact us",
+            "en": "Contact us",
             "es": "Contáctenos"
         }
     },
