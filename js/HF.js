@@ -16,6 +16,7 @@ requestHF.onload = function() {
 
 function putHF() {
     btnHeader = document.getElementById('header').getElementsByClassName('bouton')
+    console.log(btnHeader)
     keyHeader = Object.keys(hf["header"])
 
     btnFooter = document.getElementById('footer').getElementsByClassName('bouton')
@@ -30,7 +31,7 @@ function putHF() {
     }
 }
 
-function changeLangue(lang) {
+function changeLangueHF(lang) {
     langueActif = lang
     putHF()
 
@@ -39,20 +40,20 @@ function changeLangue(lang) {
 document.getElementById('BtnFr').addEventListener(
     'click',
     function() {
-        changeLangue('fr')
+        changeLangueHF('fr')
     }
 )
 
 document.getElementById('BtnAng').addEventListener(
     'click',
     function() {
-        changeLangue('en')
+        changeLangueHF('en')
     }
 )
 
 document.getElementById('BtnEsp').addEventListener(
     'click',
     function() {
-        changeLangue('es')
+        changeLangueHF('es')
     }
 )
