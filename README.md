@@ -2,7 +2,7 @@
 Ce readme est créé dans le but de suivre les avancements de la création d'un site vitrine pour une entreprise de consultant digital dans le cadre de nos études. 
 Nous avons décidé de le tenir comme un journal de bord en détaillant chaque jour les avancés du site et des nouvelles apparitions. 
 
-
+Nous avions donc 2 semaines pour réaliser ce site à partir d'un cahier des charges afin de répondre aux exigences de la consigne. 
 
 12 janvier 2022 11h23 :
 - Création sur GitHub d'une équipe et d'un repository pour les WorkShop. 
