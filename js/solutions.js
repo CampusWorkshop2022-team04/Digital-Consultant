@@ -13,6 +13,7 @@ requestSolutions.send();
 
 requestSolutions.onload = function() {
     solutions = requestSolutions.response;
+    document.getElementById('titreSol').innerText = solutions[0]["titreSolution"][langueActif]
     presentSolutions(solutions)
 }
 

@@ -12,6 +12,7 @@ requestServices.send();
 
 requestServices.onload = function() {
     services = requestServices.response;
+    document.getElementById('titreServ').innerText = services[0]["titreService"][langueActif]
     presentService(services)
 }
 
