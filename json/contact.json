@@ -24,7 +24,7 @@
         {"adressePostal" : "Lorem ipsum dolor sit amet, consectetur adipiscing."}
     ],
     
-        "TitreNousContacter":{
+    "TitreNousContacter":{
         "fr":"Nous contacter",
         "en":"Contact us",
         "es":"Contáctenos"
