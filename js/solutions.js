@@ -3,6 +3,7 @@ var requestSolutions = new XMLHttpRequest();
 var solutions = []
 var langueActif = "fr"
 
+// Désactivation de lien possédant l'id "page-actuel", cela empêche l'utilisateur d'ouvrir la page sur laquelle il se trouve
 document.getElementById('page-actuel').removeAttribute('href')
 
 // Partie exécuté au lancement de la page permettant de récupérer les données JSON stockées sur GitHub et de les convertir en JS
