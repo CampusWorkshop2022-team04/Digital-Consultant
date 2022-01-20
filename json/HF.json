@@ -17,6 +17,12 @@
             "en":"our portfolio",
             "es":"nuestro portafolio"
         },
+        
+        "btnBlog":{
+            "fr":"Blog",
+            "en":"Blog",
+            "es":"Blog"
+        },
 
         "btnContact":{
             "fr": "Nous contacter",
