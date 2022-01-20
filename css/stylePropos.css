@@ -50,6 +50,7 @@ h2 {
 	#middle {
 		display:flex;
 		vertical-align:middle;
+		justify-content: space-evenly;
 }
 	#Nous{
 		width:55%;
