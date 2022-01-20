@@ -1,3 +1,6 @@
+/* Mise en page général du body A propos*/
+
+
 .main {
 	padding: 10px;
 }
@@ -46,6 +49,8 @@ h2 {
 	box-shadow:none;
 	text-align:center;
 }
+
+/* Mise en page pour les grand écran  */
 @media screen and (min-width: 1144px) {
 	#middle {
 		display:flex;
@@ -59,6 +64,8 @@ h2 {
 	width:45%;
 	}
 }
+
+/* Mise en page pour les petit et moyen écran */
 @media screen and (max-width: 1144px) {
 	#implentation>img, #histoire>img {
 		width:90%;
