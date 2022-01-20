@@ -11,7 +11,6 @@ requestPortfolio.send();
 
 requestPortfolio.onload = function() {
     portfolio = requestPortfolio.response;
-    console.log(portfolio)
     presentPortfolio(portfolio)
 }
 
