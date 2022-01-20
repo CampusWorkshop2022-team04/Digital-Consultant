@@ -1,11 +1,14 @@
+// Variables globales
+var contact = []
+var langueActif = "fr"
+
+// Désactivation de lien possédant l'id "page-actuel", cela empêche l'utilisateur d'ouvrir la page sur laquelle il se trouve
 document.getElementById('page-actuel').removeAttribute('href')
 
-
+// Partie exécuté au lancement de la page permettant de récupérer les données JSON stockées sur GitHub et de les convertir en JS
 var requestContactURL = 'https://raw.githubusercontent.com/CampusWorkshop2022-team04/Digital-Consultant/main/json/contact.json';
 
 var requestContact = new XMLHttpRequest();
-var contact = []
-var langueActif = "fr"
 
 requestContact.open('GET', requestContactURL);
 
@@ -14,12 +17,13 @@ requestContact.send();
 
 requestContact.onload = function() {
     contact = requestContact.response;
-    putTexte()
+    putForm()
     presentReseauxSociaux()
     presentAutreContact()
 }
 
-function putTexte() {
+// Fonction affichant les éléments du formulaire
+function putForm() {
     const titreForm = document.getElementById('titreContacter')
     titreForm.innerText = contact["TitreNousContacter"][langueActif]
 
@@ -34,12 +38,13 @@ function putTexte() {
 
     const placeholderTexte = document.getElementById('texte')
     placeholderTexte.placeholder = contact["FormTexte"][langueActif]
-
 }
 
+// Fonction affichant le titre réseaux sociaux si il y en a 
 function presentReseauxSociaux() {
     const nousTrouver = document.getElementById('NousTrouver')
 
+    // On vérifie si Digital Consultant est sur des réseaux sociaux
     if (contact['nombreReseauxSociaux'] != 0) {
         const titrePartie = document.createElement('h3')
         titrePartie.innerText = contact["TitreOuNousTrouver"][langueActif]
@@ -53,6 +58,7 @@ function presentReseauxSociaux() {
     }
 }
 
+// Fonction qui ajoute le réseau social passé en paramètres dans l'élément html passé en paramètre
 function addReseauxSociaux(reseauSocial, divNousTrouver) {
     if (reseauSocial['lienURLReseauSocial'] != "") {
         const aLien = document.createElement('a')
@@ -68,10 +74,11 @@ function addReseauxSociaux(reseauSocial, divNousTrouver) {
     }
 }
 
-
+// Fonction affichant le titre d'autre contact si il y en a 
 function presentAutreContact() {
     const nosContacts = document.getElementById('nos-contacts')
 
+    // On vérifie si Digital Consultant a d'autres moyens de contact
     if (contact['nombreAutreContact'] != 0) {
         const titrePartie = document.createElement('h3')
         titrePartie.innerText = contact["TitreNosContacts"][langueActif]
@@ -87,6 +94,7 @@ function presentAutreContact() {
     }
 }
 
+// Fonction qui ajoute le moyen de contact passé en paramètres dans l'élément html passé en paramètre
 function addAutreContact(autreContact, ulNosContact) {
     const liContact = document.createElement('li')
     liContact.className = "text-center mt-3"
@@ -112,36 +120,44 @@ function addAutreContact(autreContact, ulNosContact) {
     ulNosContact.append(liContact)
 }
 
-
+// Fonction permettant de changer la langue 
 function changeLangueContact(lang) {
-    langueActif = lang
-    putTexte()
+    langueActif = lang // Fonction permettant de changer la langue 
+    putForm()
     
+    // On teste si il faut traduire le titre des moyens de contact
     if (contact['nombreAutreContact'] != 0) {
         document.getElementById('titreNosContact').innerText = contact["TitreNosContacts"][langueActif]
     }
+    // On teste si il faut traduire le titre des réseaux sociaux
     if (contact['nombreReseauxSociaux'] != 0) {
         document.getElementById('TitreOuNousTrouver').innerText = contact["TitreOuNousTrouver"][langueActif]
     }
 }
 
 
+// Evènement correspondant au click sur le drapeau français
 document.getElementById('BtnFr').addEventListener(
     'click',
+    // Traduction en français des services grâce à la fonction changeLangueContact()
     function() {
         changeLangueContact('fr')
     }
 )
 
+// Evènement correspondant au click sur le drapeau anglais
 document.getElementById('BtnAng').addEventListener(
     'click',
+    // Traduction en anglais des services grâce à la fonction changeLangueContact()
     function() {
         changeLangueContact('en')
     }
 )
 
+// Evènement correspondant au click sur le drapeau espagnol
 document.getElementById('BtnEsp').addEventListener(
     'click',
+    // Traduction en espagnol des services grâce à la fonction changeLangueContact()
     function() {
         changeLangueContact('es')
     }
