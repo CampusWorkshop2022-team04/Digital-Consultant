@@ -85,7 +85,7 @@ function changeLanguePortfolio(langue) {
 // Evènement correspondant au click sur le drapeau français
 document.getElementById('BtnFr').addEventListener(
     'click',
-    // Traduction en français des services grâce à la fonction changeLangueServ()
+    // Traduction en français des services grâce à la fonction changeLanguePortfolio()
     function() {
         changeLanguePortfolio('fr')
     }
@@ -94,7 +94,7 @@ document.getElementById('BtnFr').addEventListener(
 // Evènement correspondant au click sur le drapeau anglais
 document.getElementById('BtnAng').addEventListener(
     'click',
-    // Traduction en anglais des services grâce à la fonction changeLangueServ()
+    // Traduction en anglais des services grâce à la fonction changeLanguePortfolio()
     function() {
         changeLanguePortfolio('en')
     }
@@ -103,7 +103,7 @@ document.getElementById('BtnAng').addEventListener(
 // Evènement correspondant au click sur le drapeau espagnol
 document.getElementById('BtnEsp').addEventListener(
     'click',
-    // Traduction en espagnol des services grâce à la fonction changeLangueServ()
+    // Traduction en espagnol des services grâce à la fonction changeLanguePortfolio()
     function() {
         changeLanguePortfolio('es')
     }
