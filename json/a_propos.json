@@ -9,10 +9,24 @@
         "en": "about us",
         "es": "A propósito de nosotros"
     },
-
     "A propos de nous texte":{
         "fr": "Composé majoritairement d’indépendantsqui se réunissent autour d’une marque commune pour proposer un service sans interruptionaux clients; de la conception à la mise en production jusqu’à la maintenance.L’objectif pour DC (Digital Consultant) est de maîtriser l’ensemble des enjeux pour apporter une solution complèteet livréede A à Z. Nous nous appuyons sur un réseau de professionnelsindépendantsmais aussi sur des entreprises partenaires comme DataSys qui proposentdes services complémentairesà nos offreset nous permettent d’enproposer de nouveaux à nos clients. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. L’entreprise évolue depuis 2 ans maintenant à l’international au Canada, en France, en Espagne et prochainement aux États-Unis. Notre objectifest de préserver nos relations de proximitéet de confiance avec nos clients/partenairestout en développant de nouvelles synergies pour continuer d’innover et intégrer les dernières nouveautés pertinentes à nos offres.",
         "en": "Composed mainly of independents who come together around a common brand to offer uninterrupted service to customers; from design to production to maintenance. The objective for DC (Digital Consultant) is to master all the issues to provide a complete solution delivered from A to Z. We rely on a network of independent professionals but also on partner companies such as DataSys which offer complementary services to our offers and allow us to offer new ones to our customers. Pellentesque inhabitant morbi tristic senectus et netus et malesuada fames ac turpis egestas. The company has been evolving for 2 years now internationally in Canada, France, Spain and soon in the United States. Our objective is to preserve our relationships of proximity and trust with our customers/partners while developing new synergies to continue to innovate and integrate the latest relevant innovations into our offers.",
         "es": "Compuesto principalmente por independientes que se unen en torno a una marca común para ofrecer un servicio ininterrumpido a los clientes; desde el diseño hasta la producción y el mantenimiento. El objetivo de DC (Digital Consultant) es dominar todos los problemas para proporcionar una solución completa entregada de la A a la Z. Confiamos en una red de profesionales independientes pero también en empresas asociadas como DataSys que ofrecen servicios complementarios a nuestras ofertas y nos permiten ofrecer otros nuevos a nuestros clientes. Pellentesque habitante morbi tristic senectus et netus et malesuada fames ac turpis egestas. La empresa lleva 2 años evolucionando a nivel internacional en Canadá, Francia, España y próximamente en Estados Unidos. Nuestro objetivo es preservar nuestras relaciones cercanas y de confianza con nuestros clientes/socios mientras desarrollamos nuevas sinergias para continuar innovando e integrando las últimas innovaciones relevantes en nuestras ofertas."
+    },
+    "titreInplantation" : {
+        "fr" : "Nos implantations",
+        "en" : "Our locations",
+        "es" : "Nuestras ubicaciones"
+    },
+    "legende1" : {
+        "fr" : "Où nous sommes",
+        "en" : "Where we are",
+        "es" : "Donde estamos"
+    },
+    "legende2" : {
+        "fr" : "Nos objectifs",
+        "en" : "Our goals",
+        "es" : "Nuestras metas"
     }
 }
