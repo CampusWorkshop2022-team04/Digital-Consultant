@@ -1,3 +1,4 @@
+document.getElementById('page-actuel').removeAttribute('href')
 var requestHFURL = 'https://raw.githubusercontent.com/CampusWorkshop2022-team04/Digital-Consultant/main/json/HF.json';
 
 var requestHF = new XMLHttpRequest();
