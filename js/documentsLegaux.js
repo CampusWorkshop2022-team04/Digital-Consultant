@@ -19,9 +19,9 @@ requestDocumentsLegaux.onload = function() {
 // Fonction pour remplir le privacy policy avec les éléments en JSON
 function modificationPrivatePolicy() {
     const keyJSON = Object.keys(documentsLegaux)
-    const keyHTML = documents["classHTML"]
+    const keyHTML = documentsLegaux["classHTML"]
     for (let i=0; i<keyHTML.length; i++) {
-        arr = documentsLegaux.getElementsByClassName(keyHTML[i])
+        arr = document.getElementsByClassName(keyHTML[i])
 
         for (let j=0; j<arr.length; j++) {
             arr[j].innerText = documentsLegaux[keyJSON[i+1]]
