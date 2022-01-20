@@ -11,7 +11,6 @@ requestIndex.send();
 
 requestIndex.onload = function() {
     index = requestIndex.response;
-    console.log(index)
     putTexte()
 }
 
