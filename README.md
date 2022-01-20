@@ -6,10 +6,10 @@ Nous avons décidé de le tenir comme un journal de bord en détaillant chaque j
 
 12 Janvier 2022 11h23 :
 - Création sur GitHub d'une équipe et d'un repository pour les WorkShop. 
-- Ajout des fichiers déja exisant en JS et JSON
+- Ajout des fichiers déja existant en JS et JSON
 
 12 Janvier 2022 17h33 :
-- La page contact.html est presque fini. Les réseaux sociaux et moyens de contact s'ajoutent automatiquement grâce aux fichiers JS et JSON.
+- La page contact.html est presque finie. Les réseaux sociaux et moyens de contact s'ajoutent automatiquement grâce aux fichiers JS et JSON.
 - Le pop-up des cookies créé.
 
 13 Janvier 2022 18h10 :
