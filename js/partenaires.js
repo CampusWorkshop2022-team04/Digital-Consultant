@@ -10,8 +10,6 @@ requestPartenaires.send();
 
 requestPartenaires.onload = function() {
     var partenaires = requestPartenaires.response;
-    console.log(partenaires)
-    afficherNombrePartenaire(partenaires.length)
     presentPartenaire(partenaires)
 }
 
