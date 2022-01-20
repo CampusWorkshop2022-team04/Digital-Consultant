@@ -5,6 +5,7 @@ var requestContactURL = 'https://raw.githubusercontent.com/CampusWorkshop2022-te
 
 var requestContact = new XMLHttpRequest();
 var contact = []
+var langueActif = "fr"
 
 requestContact.open('GET', requestContactURL);
 
@@ -14,8 +15,27 @@ requestContact.send();
 requestContact.onload = function() {
     contact = requestContact.response;
     console.log(contact)
+    putTexte()
     presentReseauxSociaux()
     presentAutreContact()
+}
+
+function putTexte() {
+    const titreForm = document.getElementsByClassName('titre')[0]
+    titreForm.innerText = contact["TitreNousContacter"][langueActif]
+
+    const placeholderNom = document.getElementsByClassName('Nom')[0]
+    placeholderNom.innerText = contact["FormNom"][langueActif]
+    
+    const placeholderPrenom = document.getElementsByClassName('Prenom')[0]
+    placeholderPrenom.innerText = contact["FormPrenom"][langueActif]
+
+    const placeholderMail = document.getElementsByClassName('Adresse')[0]
+    placeholderMail.innerText = contact["FormMail"][langueActif]
+
+    const placeholderTexte = document.getElementById('texte')
+    placeholderTexte.innerText = contact["FormTexte"][langueActif]
+
 }
 
 function presentReseauxSociaux() {
@@ -23,8 +43,9 @@ function presentReseauxSociaux() {
 
     if (contact['nombreReseauxSociaux'] != 0) {
         const titrePartie = document.createElement('h3')
-        titrePartie.innerText = "Où nous trouver ?"
+        titrePartie.innerText = contact["TitreOuNousTrouver"][langueActif]
         titrePartie.className = "text-center m-3"
+        titrePartie.id = "TitreOuNousTrouver"
         nousTrouver.prepend(titrePartie)
 
         for (let i=0; i < contact['reseauxSociaux'].length; i++) {
@@ -54,8 +75,9 @@ function presentAutreContact() {
 
     if (contact['nombreAutreContact'] != 0) {
         const titrePartie = document.createElement('h3')
-        titrePartie.innerText = "Nos contacts"
+        titrePartie.innerText = contact["TitreNosContacts"][langueActif]
         titrePartie.className = "text-center"
+        titrePartie.id = "titreNosContact"
         nosContacts.prepend(titrePartie)
 
         const ulContact = document.createElement('ul')
@@ -90,3 +112,38 @@ function addAutreContact(autreContact, ulNosContact) {
 
     ulNosContact.append(liContact)
 }
+
+
+function changeLangueContact(lang) {
+    langueActif = lang
+    putTexte()
+    
+    if (contact['nombreAutreContact'] != 0) {
+        document.getElementById('titreNosContact').innerText = contact["TitreNosContacts"][langueActif]
+    }
+    if (contact['nombreReseauxSociaux'] != 0) {
+        document.getElementById('TitreOuNousTrouver').innerText = contact["TitreOuNousTrouver"][langueActif]
+    }
+}
+
+
+document.getElementById('BtnFr').addEventListener(
+    'click',
+    function() {
+        changeLangueContact('fr')
+    }
+)
+
+document.getElementById('BtnAng').addEventListener(
+    'click',
+    function() {
+        changeLangueContact('en')
+    }
+)
+
+document.getElementById('BtnEsp').addEventListener(
+    'click',
+    function() {
+        changeLangueContact('es')
+    }
+)
