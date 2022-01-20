@@ -22,6 +22,48 @@
         {"numeroTelephone" : "00.00.00.00.00"},
         {"adresseMail" : "lorem.ipsum@dolor.sit"},
         {"adressePostal" : "Lorem ipsum dolor sit amet, consectetur adipiscing."}
-    ]
+    ],
+    
+        "TitreNousContacter":{
+        "fr":"Nous contacter",
+        "en":"Contact us",
+        "es":"Contáctenos"
+    },
+
+    "FormNom":{
+        "fr":"Nom",
+        "en":"Last name",
+        "es":"Apellido"
+    },
+
+    "FormPrenom":{
+        "fr":"Prénom",
+        "en":"First name",
+        "es":"Nombre"
+    },
+
+    "FormMail":{
+        "fr": "Adresse mail",
+        "en": "Mail address",
+        "es": "Correo electrónico" 
+    },
+
+    "FormTexte":{
+        "fr":"Entrer votre texte",
+        "en":"Enter your text",
+        "es":"Introduce tu texto"
+    },
+
+    "TitreNosContacts":{
+        "fr":"Nos contacts",
+        "en":"Our contacts",
+        "es":"Nuestros Contactos"
+    },
+
+    "TitreOuNousTrouver":{
+        "fr":"Où nous trouver ?",
+        "en":"Where to find us ?",
+        "es":"Dónde encontrarnos ?"
+    }
 }
 
