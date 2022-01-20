@@ -1,7 +1,11 @@
+// Variables globales
+var partenaires = []
+
+// Partie exécuté au lancement de la page permettant de récupérer les données JSON stockées sur GitHub et de les convertir en JS
 var requestPartenairesURL = 'https://raw.githubusercontent.com/CampusWorkshop2022-team04/Digital-Consultant/main/json/partenaires.json';
 
 var requestPartenaires = new XMLHttpRequest();
-var partenaires = []
+
 
 requestPartenaires.open('GET', requestPartenairesURL);
 
@@ -9,25 +13,27 @@ requestPartenaires.responseType = 'json';
 requestPartenaires.send();
 
 requestPartenaires.onload = function() {
-    var partenaires = requestPartenaires.response;
-    afficherNombrePartenaire(partenaires.length)
-    presentPartenaire(partenaires)
+    partenaires = requestPartenaires.response;
+    afficherNombrePartenaire()
+    presentPartenaire()
 }
 
-
-function afficherNombrePartenaire(nombrePartenaire) {
+// Fonction affichant le nombre de partenaires de Digital Consultant sur la page index.html
+function afficherNombrePartenaire() {
     const hNbPartenaires = document.getElementById('nbPartenaires')
-    hNbPartenaires.innerText = nombrePartenaire
+    hNbPartenaires.innerText = partenaires.length
 }
 
-function presentPartenaire(arrPartenaire) {
+// Fonction présentant les différents partenaires grâce a un bandeau défilant
+function presentPartenaire() {
     const ul = document.getElementById('partenaires')
 
-    for (let i=0; i<arrPartenaire.length; i++) {
-        addPartenaire(arrPartenaire[i], ul)
+    for (let i=0; i<partenaires.length; i++) {
+        addPartenaire(partenaires[i], ul)
     }
 }
 
+// Fonction ajoutant le partenaire en paramètre (part) dans l'élément html en paramètre
 function addPartenaire(part, ulPart) {
     const li = document.createElement('li')
     li.className = "partenaires"
