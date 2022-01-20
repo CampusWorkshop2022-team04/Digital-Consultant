@@ -65,3 +65,6 @@
 
 20 Janvier 2022 10h23 :
 - La page "A Propos" possède désormais la fonctionnalité multilingue sur son contenu.
+
+20 Janvier 2022 10h54 :
+- Le header et le footer possèdent maintenat la fonctionnalité multilingue sur son contenu.
