@@ -46,10 +46,32 @@ function addArticles(divArticle) {
 
         article.append(auteur)
         article.append(commentaire)
-
+        addcommentaire(article)
         divArticle.append(article)
     }
 
+}
+
+function addcommentaire(divCommentaire) {
+    const ajoutCommentaire = document.createElement('form')
+    ajoutCommentaire.className = "AjoutCommentaire"
+
+    const Nom = document.createElement('input')
+    Nom.placeholder = "Nom"
+    Nom.className = "Nom"
+
+    const commentaire = document.createElement('textarea')
+    commentaire.placeholder = "Commentaire"
+    commentaire.className = "Commentaire"
+
+    const btnenvoye = document.createElement('button')
+    btnenvoye.innerText = "Envoyer"
+    btnenvoye.className = "envoye"
+
+    ajoutCommentaire.append(Nom)
+    ajoutCommentaire.append(commentaire)
+    ajoutCommentaire.append(btnenvoye)
+    divCommentaire.append(ajoutCommentaire)
 }
 
 function changeLangue(langue) {
