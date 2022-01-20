@@ -1,8 +1,11 @@
+// Variables globales
+var hf = []
+var langueActif = "fr"
+
+// Désactivation de lien possédant l'id "page-actuel", cela empêche l'utilisateur d'ouvrir la page sur laquelle il se trouve
 var requestHFURL = 'https://raw.githubusercontent.com/CampusWorkshop2022-team04/Digital-Consultant/main/json/HF.json';
 
 var requestHF = new XMLHttpRequest();
-var hf = []
-var langueActif = "fr"
 
 requestHF.open('GET', requestHFURL);
 
@@ -11,9 +14,10 @@ requestHF.send();
 
 requestHF.onload = function() {
     hf = requestHF.response;
-    putHF()
+    putHF() // Affichage du contenu des boutons du header et du footer au lancement de la page
 }
 
+// Fonction affichant le texte de chaque bouton du header et du footer dans la langue actif
 function putHF() {
     btnHeader = document.getElementById('header').getElementsByClassName('bouton')
     keyHeader = Object.keys(hf["header"])
@@ -30,28 +34,34 @@ function putHF() {
     }
 }
 
+// Fonction permettant de changer la langue du contenu du header et du footer
 function changeLangueHF(lang) {
-    langueActif = lang
-    putHF()
-
+    langueActif = lang // Changement de la langue actif
+    putHF() // Appel de la fonction putHF()
 }
 
+// Evènement correspondant au click sur le drapeau français
 document.getElementById('BtnFr').addEventListener(
     'click',
+    // Traduction en français des services grâce à la fonction changeLangueHF()
     function() {
         changeLangueHF('fr')
     }
 )
 
+// Evènement correspondant au click sur le drapeau anglais
 document.getElementById('BtnAng').addEventListener(
     'click',
+    // Traduction en anglais des services grâce à la fonction changeLangueHF()
     function() {
         changeLangueHF('en')
     }
 )
 
+// Evènement correspondant au click sur le drapeau espagnol
 document.getElementById('BtnEsp').addEventListener(
     'click',
+    // Traduction en espagnol des services grâce à la fonction changeLangueHF()
     function() {
         changeLangueHF('es')
     }

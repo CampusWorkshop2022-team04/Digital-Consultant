@@ -14,7 +14,7 @@ requestIndex.send();
 
 requestIndex.onload = function() {
     index = requestIndex.response;
-    putTexte()
+    putTexte() // Affichage du texte au lancement de la page
 }
 
 // Fonction affichant les textes contenues dans la page index.html dans la langue actif
@@ -38,7 +38,7 @@ function putTexte() {
 // Fonction permettant de changer la langue du contenu de la page index.html
 function changeLangueIndex(lang) {
     langueActif = lang // Changement de la langue actif
-    putTexte()
+    putTexte() // Appel de la fonction putTexte() 
 
 }
 
