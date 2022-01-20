@@ -32,7 +32,7 @@ function putTexte() {
     textePart.innerText = index["Partenaire"][langueActif]
 }
 
-function changeLangue(lang) {
+function changeLangueIndex(lang) {
     langueActif = lang
     putTexte()
 
@@ -41,20 +41,20 @@ function changeLangue(lang) {
 document.getElementById('BtnFr').addEventListener(
     'click',
     function() {
-        changeLangue('fr')
+        changeLangueIndex('fr')
     }
 )
 
 document.getElementById('BtnAng').addEventListener(
     'click',
     function() {
-        changeLangue('en')
+        changeLangueIndex('en')
     }
 )
 
 document.getElementById('BtnEsp').addEventListener(
     'click',
     function() {
-        changeLangue('es')
+        changeLangueIndex('es')
     }
 )
