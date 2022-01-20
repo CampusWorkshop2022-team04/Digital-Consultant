@@ -11,7 +11,6 @@ requestPropos.send();
 
 requestPropos.onload = function() {
     propos = requestPropos.response;
-    console.log(propos)
     putTexte()
 }
 
