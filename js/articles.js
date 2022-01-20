@@ -74,7 +74,7 @@ function addcommentaire(divCommentaire) {
     divCommentaire.append(ajoutCommentaire)
 }
 
-function changeLangue(langue) {
+function changeLangueArticle(langue) {
     langueActif = langue
     document.getElementById('titleArticles').innerText = articles[0]["titreArticle"][langueActif]
     const arr = document.getElementsByClassName('commentaireArticleBlog')
@@ -87,20 +87,20 @@ function changeLangue(langue) {
 document.getElementById('BtnFr').addEventListener(
     'click',
     function() {
-        changeLangue('fr')
+        changeLangueArticle('fr')
     }
 )
 
 document.getElementById('BtnAng').addEventListener(
     'click',
     function() {
-        changeLangue('en')
+        changeLangueArticle('en')
     }
 )
 
 document.getElementById('BtnEsp').addEventListener(
     'click',
     function() {
-        changeLangue('es')
+        changeLangueArticle('es')
     }
 )
