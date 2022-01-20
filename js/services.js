@@ -1,4 +1,4 @@
-// Variable globale
+// Variables globales
 var services = []
 var serviceActif = ""
 var numService = 0
