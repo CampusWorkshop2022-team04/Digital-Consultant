@@ -70,3 +70,7 @@ Nous avons décidé de le tenir comme un journal de bord en détaillant chaque j
 
 20 janvier 2022 10h54 :
 - Le header et le footer possèdent maintenant la fonctionnalité multilingue sur son contenu.
+
+20 janvier 2022 11h40 : 
+- tous les codes on été commenté 
+- fonction multilingue ajoutée de partout
