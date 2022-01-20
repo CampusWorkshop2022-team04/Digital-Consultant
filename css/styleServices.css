@@ -1,66 +1,3 @@
-/* Menu déroulant  */
-.menuDeroulant{
-    height: 60px;   
-    list-style: none;
-    padding: 10px;
-    margin: 40px;
-}
-
-.menuDeroulant button{
-    float: left;
-    width: 200px;
-}
-
-.menuDeroulant button option:link,
-.menuDeroulant button option:visited{
-    display: block;
-    color: #FFFFFF;
-    background: #293245;
-    padding: 6px 10px;
-    border-right: 1px solid #FFFFFF;
-    text-align: center;
-    text-decoration: none;
-}
-
-.menuDeroulant button option:hover{
-    background-color: #192bd2;
-}
-.menuDeroulant button option:active {
-    background-color: #808080;
-}
-
-.menuDeroulant .sousMenu{
-    list-style-type: none;
-    display: none;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-}
-.menuDeroulant .sousMenu button{
-    float: none;
-    margin: 0;
-    padding: 0;
-    border-top: 1px solid transparent;
-    border-right: 1px solid transparent;
-}
-
-.menuDeroulant .sousMenu button option:link, 
-.menuDeroulant button option:visited{
-    display: block;
-    color: #FFFFFF;
-    text-decoration: none;
-    background-color: #808080;
-}
-.menuDeroulant .sousMenu button option:hover{
-    background-color: white;
-}
-
-.menuDeroulant button:hover .sousMenu{
-    display: block;
-}
-
-
-
 /* Texte qui apparait sur l'img */
 
 .phase {
@@ -110,7 +47,7 @@
     transform: translateY(0px);
     -webkit-transform: translateY(0px);
 }
-/* Mise en page des img et de la page html */
+/* Mise en page du body Services */
 
 #main {
     padding: 5px;
@@ -169,13 +106,14 @@
     border-radius: 15px;
 }
 
-
+/* Mise en page sur petit et moyen écran */
 @media screen and (min-width:768px) {
     .divSolution {
         flex-basis: 45%;
     }
 }
 
+/* Mise en page sur grand écran */
 @media screen and (min-width:1024px) {
     .divSolution {
         flex-basis: 30%;
