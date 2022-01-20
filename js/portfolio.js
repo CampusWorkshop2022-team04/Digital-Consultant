@@ -61,7 +61,7 @@ function addRex(rex, divPortfolio) {
     divPortfolio.append(divDocument)
 }
 
-function changeLangue(langue) {
+function changeLanguePortfolio(langue) {
     langueActif = langue
     document.getElementById('titlePortfolio').innerText = portfolio[0]["titrePortfolio"][langueActif]
     arr = document.getElementsByClassName('pDescriptif')
@@ -75,21 +75,21 @@ function changeLangue(langue) {
 document.getElementById('BtnFr').addEventListener(
     'click',
     function() {
-        changeLangue('fr')
+        changeLanguePortfolio('fr')
     }
 )
 
 document.getElementById('BtnAng').addEventListener(
     'click',
     function() {
-        changeLangue('en')
+        changeLanguePortfolio('en')
     }
 )
 
 document.getElementById('BtnEsp').addEventListener(
     'click',
     function() {
-        changeLangue('es')
+        changeLanguePortfolio('es')
     }
 )
 
