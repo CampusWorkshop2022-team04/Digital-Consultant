@@ -1,3 +1,5 @@
+document.getElementById('page-actuel').removeAttribute('href')
+
 var requestProposURL = 'https://raw.githubusercontent.com/CampusWorkshop2022-team04/Digital-Consultant/main/json/a_propos.json';
 
 var requestPropos = new XMLHttpRequest();

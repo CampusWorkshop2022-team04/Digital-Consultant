@@ -1,3 +1,5 @@
+document.getElementById('page-actuel').removeAttribute('href')
+
 var requestSolutionsURL = 'https://raw.githubusercontent.com/CampusWorkshop2022-team04/Digital-Consultant/main/json/solutions.json';
 
 var requestSolutions = new XMLHttpRequest();

@@ -1,3 +1,5 @@
+document.getElementById('page-actuel').removeAttribute('href')
+
 var requestPortfolioURL = 'https://raw.githubusercontent.com/CampusWorkshop2022-team04/Digital-Consultant/main/json/portfolio.json';
 
 var requestPortfolio = new XMLHttpRequest();

@@ -1,4 +1,3 @@
-document.getElementById('page-actuel').removeAttribute('href')
 var requestHFURL = 'https://raw.githubusercontent.com/CampusWorkshop2022-team04/Digital-Consultant/main/json/HF.json';
 
 var requestHF = new XMLHttpRequest();
@@ -17,7 +16,6 @@ requestHF.onload = function() {
 
 function putHF() {
     btnHeader = document.getElementById('header').getElementsByClassName('bouton')
-    console.log(btnHeader)
     keyHeader = Object.keys(hf["header"])
 
     btnFooter = document.getElementById('footer').getElementsByClassName('bouton')
