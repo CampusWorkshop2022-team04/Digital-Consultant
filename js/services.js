@@ -12,7 +12,6 @@ requestServices.send();
 
 requestServices.onload = function() {
     services = requestServices.response;
-    console.log(services)
     presentService(services)
 }
 
