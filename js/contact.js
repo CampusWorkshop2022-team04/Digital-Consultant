@@ -20,20 +20,20 @@ requestContact.onload = function() {
 }
 
 function putTexte() {
-    const titreForm = document.getElementsByClassName('titre')[0]
+    const titreForm = document.getElementById('titreContacter')
     titreForm.innerText = contact["TitreNousContacter"][langueActif]
 
     const placeholderNom = document.getElementsByClassName('Nom')[0]
-    placeholderNom.innerText = contact["FormNom"][langueActif]
+    placeholderNom.placeholder = contact["FormNom"][langueActif]
     
     const placeholderPrenom = document.getElementsByClassName('Prenom')[0]
-    placeholderPrenom.innerText = contact["FormPrenom"][langueActif]
+    placeholderPrenom.placeholder = contact["FormPrenom"][langueActif]
 
     const placeholderMail = document.getElementsByClassName('Adresse')[0]
-    placeholderMail.innerText = contact["FormMail"][langueActif]
+    placeholderMail.placeholder = contact["FormMail"][langueActif]
 
     const placeholderTexte = document.getElementById('texte')
-    placeholderTexte.innerText = contact["FormTexte"][langueActif]
+    placeholderTexte.placeholder = contact["FormTexte"][langueActif]
 
 }
 
