@@ -18,7 +18,7 @@
     <!-- Barre de navigation -->
     <div id="header" class="color1">
       <div class="section text-center" id="navigation">
-        <a href="../index.html" class=""><img class="logo" src="../img/logo.png" alt="logo Digital Consultant"/></a>
+        <a id="page-actuel" href="../index.html" class=""><img class="logo" src="../img/logo.png" alt="logo Digital Consultant"/></a>
         <a href="services.html" id="page-actuel" class="bouton"></a>
         <a href="propos.html" class="bouton"></a>
         <a href="portfolio.html" class="bouton"></a>
@@ -35,39 +35,38 @@
 
     <div id="main">
 
-      <h1 id="titreServ" class="titreDiv">Nos Services</h1>
-      <div id="nosServices">
-        <div id="service1" class="phase">
+      <h1 id="titreServ" class="titreDiv"></h1> <!--Création du titre modifialble en json-->
+      <div id="nosServices"> <!--  Création de la div pour y mettre les 3 services disponible -->
+        <div id="service1" class="phase"> <!--Création de la div Pour le service 1-->
           <img class="imgservice" src="../img/audit-carre.jpg" alt="audit" width="387" height="387" />
-          <div class="textimg">
-            <div class="title_text">Phase d'audit</div>
+          <div class="textimg"> <!--Création de la div pour faire apparaitre le texte sur l'image-->
+            <div class="title_text"></div>
           </div>
         </div>
 
-        <div id="service2" class="phase">
+        <div id="service2" class="phase"> <!--Création de la div Pour le service 2-->
           <img class="imgservice" src="../img/conseil-carre.png" alt="conseil" width="387" height="387"/>
-          <div class="textimg">
-            <div class="title_text"> Phase de conseil</div>
+          <div class="textimg"> <!--Création de la div pour faire apparaitre le texte sur l'image-->
+            <div class="title_text"></div>
           </div>
         </div>
   
-        <div id="service3" class="phase">
+        <div id="service3" class="phase"> <!--Création de la div Pour le service 3-->
           <img class="imgservice" src="../img/conception-carre.jpg" alt="conception" width="387" height="387"  />
-          <div class="textimg">
-            <div class="title_text"> Phase de conception</div>
+          <div class="textimg"> <!--Création de la div pour faire apparaitre le texte sur l'image-->
+            <div class="title_text"> </div>
           </div>
         </div>
 
-        <div id="explicationService">
-          
+        <div id="explicationService"> <!--Création de la div pour faire apparaitre les explication du service en json-->          
         </div>
 
       </div>
 
       
 
-      <h1 id="titreSol" class="titreDiv">Nos solutions</h1>
-      <div id="nosSolutions">
+      <h1 id="titreSol" class="titreDiv"></h1> <!--Création du titre modifialble en json-->
+      <div id="nosSolutions"> <!--Création de la ddiv pour mettre le texte des solutions en json -->
       </div>
 
 
@@ -90,8 +89,8 @@
       <p id="copyR">&copy; Copryright 2021</p>
     </div>
 
-    <script src="../js/HF.js"></script>
-    <script src="../js/services.js"></script>
-    <script src="../js/solutions.js"></script>
+    <script src="../js/HF.js"></script><!--script du hearder/footer pour être multilingue-->
+    <script src="../js/services.js"></script><!--Script pour récuperer tout les texte "services" dans le fichiers json-->
+    <script src="../js/solutions.js"></script><!--Script pour récuperer tout les texte "solutions" dans le fichiers json-->
   </body>
 </html>
