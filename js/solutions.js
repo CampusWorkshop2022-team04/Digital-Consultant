@@ -11,7 +11,6 @@ requestSolutions.send();
 
 requestSolutions.onload = function() {
     solutions = requestSolutions.response;
-    console.log(solutions)
     presentSolutions(solutions)
 }
 
