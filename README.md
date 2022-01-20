@@ -1,4 +1,8 @@
 # Digital-Consultant
+Ce readme est créé dans le but de suivre les avancements de la création d'un site vitrine pour une entreprise de consultant digital dans le cadre de nos études. 
+Nous avons décidé de le tenir comme un journal de bord en détaillant chaque jour les avancé du site et les nouvelles apparition. 
+
+
 
 12 Janvier 2022 11h23 :
 - Création sur GitHub d'une équipe et d'un repository pour les WorkShop. 
