@@ -35,7 +35,7 @@ function putTexte() {
     legende2.innerText = propos["legende2"][langueActif]
 }
 
-function changeLangue(lang) {
+function changeLanguePropos(lang) {
     langueActif = lang
     putTexte()
 
@@ -44,20 +44,20 @@ function changeLangue(lang) {
 document.getElementById('BtnFr').addEventListener(
     'click',
     function() {
-        changeLangue('fr')
+        changeLanguePropos('fr')
     }
 )
 
 document.getElementById('BtnAng').addEventListener(
     'click',
     function() {
-        changeLangue('en')
+        changeLanguePropos('en')
     }
 )
 
 document.getElementById('BtnEsp').addEventListener(
     'click',
     function() {
-        changeLangue('es')
+        changeLanguePropos('es')
     }
 )
