@@ -1,6 +1,6 @@
 # Digital-Consultant
 Ce readme est créé dans le but de suivre les avancements de la création d'un site vitrine pour une entreprise de consultant digital dans le cadre de nos études. 
-Nous avons décidé de le tenir comme un journal de bord en détaillant chaque jour les avancé du site et les nouvelles apparition. 
+Nous avons décidé de le tenir comme un journal de bord en détaillant chaque jour les avancés du site et les nouvelles apparitions. 
 
 
 
