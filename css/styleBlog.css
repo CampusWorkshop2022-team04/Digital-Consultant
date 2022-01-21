@@ -1,17 +1,20 @@
+/* les position sont defini de manière simple */
 #main {
     display: flex;
     flex-direction: column;
 }
-
+/* le texte est mis au centre */
 #titleArticles {
     text-align: center;
 }
 
+/* la div qui contiens les articles se centre */
 #nosArticles {
     align-items: center;
     padding-bottom: 2%;
 }
 
+/* quelque valeur de positionnememnt et de style */
 .divArticleBlog {
     display: flex;
     flex-direction: column;
@@ -24,26 +27,31 @@
     background-color: #d7d7d745 ;
 }
 
+/* class qui relie tout les auteurs d'artcile */
 .auteurArticleBlog {
     margin-block-end: 0em;
 }
 
+/* class reliant tout les textes du blog */
 .commentaireArticleBlog {
     margin-block-start: 0.5em;
     text-align: justify;
 }
 
+/* class reliant toute les zones de texte pour le nom */
 .Nom{
     display: flex;
     margin-top: 2%;
 }
 
+/* class reliant toute les zones de textes pour laisser des commentairesq */
 .Commentaire{
     display: flex;
     margin-top: 0.5%;
 
 }
 
+/* classe reliant tout les boutons envoyer sur le blog */
 .envoye{
     margin-top: 0.5%;
     margin-bottom: 1%;
