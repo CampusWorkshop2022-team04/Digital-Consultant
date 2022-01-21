@@ -1,23 +1,25 @@
+/* class reliant tout les titres de la pages contact */
 .titre{
 	margin-top: 2%;
 	margin-left: 2%;
 }
+
+/* couleur du header et du footer */
 .color1 {
 	background-color : #A3D5CF 
 }
-.color2 {
-	background-color:#bdbdbd
-}
-.coloracc {
-	background-color:#848EB2;
-}
 
+/* class pour mettre un margin de 10pixel */
 .margin {
 	margin : 10px;
 }
+
+/* class pour mettre un texte important en rouge */
 .important {
 	color: red;
 }
+
+/* id pour la zone de texte */
 #texte{
 	margin-top: 2%;
 	padding-top: 1%;
@@ -26,16 +28,23 @@
 	padding-right: 1%;
 	border-radius:5px;
 }
+
+/* class pour le bouton envoyer du formulaire */
 .envoyer{
 	margin-top: 5%;
 }
 
+/* class pour la zone de texte prenom */
 .Prenom{
 	margin-top: 2%;
 }
+
+/* class pour la zone de texte dedié aux adresses mails */
 .Adresse{
 	margin-top: 2%;
 }
+
+/* class les boutons activé de base */
 .actbouton {
 	background-color:#168f5d;
 	color:white;
@@ -52,32 +61,46 @@
 	text-align:center;
 }
 
+/* cette partie est impoortante pour que rien ne puisse dépasser les bords de l'ecran */
 * { 
 	max-width: 100%;
 	max-height:100%;
 	
 }
+
+/* class pour centrer un peu plus le texte */
 .main {
 	padding:20px;
 	
 }
+
+/* On a fait ça pour agrandir les titres en h3 */
 h3 {
 	font-size:175%;
 }
+
+/* pour que les liens soit discret on a préferer faire ça */
 a {
 	text-decoration:none;
 	color:#3A3A3A;
 }
+
+/* on a enlever les points des li */
 ul {
 list-style-type: none;
 }
 
+/* un léget hover sur les liens permet de savoir que ce sont des liens */
 a:hover {
 	color:#848EB2;
 }
+
+/* On a préferer les mettres a droite pour ne pas trop avoir d'espace vide */
 #nos-contacts, #NousTrouver {
 	text-align : right;
 }
+
+/* dimentionnement et positionnement du formulaire */
 #formulaire {
 	width: 70%;
 	height: 300px;
