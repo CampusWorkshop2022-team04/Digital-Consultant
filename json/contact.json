@@ -31,27 +31,27 @@
     },
 
     "FormNom":{
-        "fr":"Nom",
-        "en":"Last name",
-        "es":"Apellido"
+        "fr":"Nom *",
+        "en":"Last name *",
+        "es":"Apellido *"
     },
 
     "FormPrenom":{
-        "fr":"Prénom",
-        "en":"First name",
-        "es":"Nombre"
+        "fr":"Prénom *",
+        "en":"First name *",
+        "es":"Nombre *"
     },
 
     "FormMail":{
-        "fr": "Adresse mail",
-        "en": "Mail address",
-        "es": "Correo electrónico" 
+        "fr": "Adresse mail *",
+        "en": "Mail address *",
+        "es": "Correo electrónico *" 
     },
 
     "FormTexte":{
-        "fr":"Entrer votre texte",
-        "en":"Enter your text",
-        "es":"Introduce tu texto"
+        "fr":"Entrer votre texte *",
+        "en":"Enter your text *",
+        "es":"Introduce tu texto *"
     },
 
     "TitreNosContacts":{
