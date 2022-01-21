@@ -1,9 +1,11 @@
+/* L'id langue indique le multilingue, ici on gère pricipalement le positionnement quand il est en dehors de tout les sélécteur */
 #langue{
 	position: absolute;
 	top: 3px;
 	right: 3px;
 }
 
+/* Ici aussi on gère le positionnement des boutons multilingue mais de manière plus precise et on gère aussi leurs tailles */
 #BtnFr, #BtnAng, #BtnEsp{
 	width: 55px;
 	height: 55px;
@@ -12,13 +14,13 @@
 	border: #0E7894;
 }
 
+/* Il y avais quelque problème avec le positionnement et la taille des image donc on a ajuster legèrement la taille et l'alignement grace a ça  */
 .Fr, .Ang, .Esp{
 	width: 100%;
 	vertical-align: middle;
 }
 
-
-
+/* La classe .bouton est très utilisé notament dans la barre de navigation, c'est juste de l'apparence ici, et après on gère le positionnement de manière individuel slon comment on les utilise */
 .bouton, #page-actuel:hover {
 	background-color:#0E7894;
 	border-radius:15px;
@@ -33,21 +35,31 @@
 	box-shadow:none;
 	text-align:center;
 }
+
+											/* Partie responsive (tout les sélécteursont précis et calculé au pixel près */
+/* C'est le sélécteur le plus grand des 3 */
 @media screen and (min-width: 1144px) {
+	
+	/* Ici c'est pour que les bouttons prènent la place qu'ils on besoin vue que c'est l'ecran le plus grand c'est plus simple */
 	.bouton, .bouton:hover, #page-actuel, #page-actuel:hover {
 		width:10%;
 		height:auto;
 	}
+	
+	/* On s'etais rendu compte que le multilingue ne devais pas avoir la meme valeur de position suivant l'ecran donc on a arranger ce problème */
 	#langue{
 	position:absolute,
 	}
 	
+	/* Vue que le logo est vraiment très grand il fallais obligatoirement le redimentionné a chaque taille d'ecran, c'est ce qui est fait ici en plus de lui dire sa position */
 	.logo {
 		width : 10%;
 		min-width:35px;
 		display:inline-block;
 		vertical-align: middle;
 	}
+	
+	/* Ici on est dans le footer et ça va etre principalement du positionnement vue que les tailles on deja été defini le reste c'est que des ajustement leger */
 	#CGU,#Ancre, #MentionLegal {
 	width:12%;
 	height:auto;
@@ -62,17 +74,22 @@
 	width : 4.16%;
 	}
 }
+
+/* C'est le sélécteur qui est entre le PC et la tablette */
 @media screen and (min-width: 800px) and (max-width:1143px) {
+	/* comme celle qui est en haut cette partie est la pour la taille des boutons */
 	.bouton, .bouton:hover, #page-actuel, #page-actuel:hover {
 		width:15%;
 		height:auto;
 	}
 	
+	/* C'est la partie pour le multilingue */
 	#langue {
         	position:static;
 		margin-top:0.5%;
     	}
 	
+	/* vue que le logo est grand il faut le redimentionner et le positionner */
 	.logo {
 		width : 10%;
 		min-width:35px;
@@ -80,6 +97,8 @@
 		vertical-align: middle;
 		 
 	}
+	
+	/* Partie Footer */
 	#CGU,#Ancre, #MentionLegal {
 	width:20%;
 	height:auto;
@@ -88,18 +107,22 @@
 	vertical-align: middle;
 	}
 	#Ancre {
-		margin-top: 2%;
+		margin-top: 2%; 
 	}
 	.icon {
 	width : 4.16%;
 	}
 }
+
+/* Sélécteur le plus petit */
 @media screen and (max-width: 874px) {
+	/* onsuperpose les boutons */
 	.bouton, .bouton:hover, #page-actuel, #page-actuel:hover {
 	width:90%;
 	height:auto;
 	}
 	
+	/* On re change le multilingue */
 	#langue {
         position:static;
 	margin-top:0.5%;
@@ -111,6 +134,7 @@
 		display:inline-block;
 		vertical-align: middle;
 	}
+	/* En forma téléphone le header et footer change pas mal */
 	#header {
 		text-align:center;
 		flex:auto;
@@ -132,15 +156,21 @@
 	width : 10%;
 	}
 }
+
+/* C'est la couleur du heauder et du footer */
 .color1 {
 	background-color : #A3D5CF 
 }
+
+/* Pour éviter les debordement cette regle est utile */
 body {
 	height:100%;
 	width:100%;
 	margin:0;
 	
 }
+
+/* Pour avoir un header propore */
 #header {
 	margin-bottom: 2%;
 	padding: 1%;
@@ -149,22 +179,29 @@ body {
 	margin-right:0%;
 	flex:auto;
 }
+
+/* hover des boutons et page actuel */
 .bouton:hover,#page-actuel {
 	background-color:#168f5d;
 	color:white;
 	box-shadow: 5px 5px 7px 3px rgba(0,0,0,0.19);
 }
+
+/* repositionnement */
 #header, #footer, .article, .section, p {
  display: inline-block;
  vertical-align: middle;
  float: none;
 }
+
+/* principalement du style */
 #footer {
 	position: static;
 	padding-top : 1%;
 	text-align:center;
 }
+
+/* On a mis ça pour qu'ils soit juste en dessous du logo */
 #copyR {
 	text-align:center;
 }
-
