@@ -1,18 +1,22 @@
+/* On a mis ça pour recentrer un peu le texte */
 #main {
     margin: 2%;
     width:auto;
 }
 
+/* id reliant au titre de la page */
 #titleDocumentsLegaux {
     text-align: center;
 }
 
+/* id reliant la div contenant tout les boutons pour les documents légaux */
 #divBoutonDocumentsLegaux {
     display: flex;
     justify-content: space-around;
     padding: 5px;
 }
 
+/* class pour les boutons des documents légaux */
 .btnDocumentsLegaux {
     width: 25%;
     background-color: #A3D5CF;
@@ -21,22 +25,26 @@
     padding: 7px;
 }
 
+/* Class pour la div contenant tout les documents légaux */
 #divDocumentsLegaux {
     display: flex;
     flex-direction: column;
 }
 
+/* id pour pas que le texte ne sorte de la page */
 #pDocumentsLegaux {
     max-width: 90%;
     text-align: justify;
 }
 
+/* un petit hover sur les bouttons pour les rendre plus beau */
 .btnDocumentsLegaux:hover {
     color: #ffff;
     background-color: #0E7894;
     box-shadow: 5px 5px 7px 3px rgba(0,0,0,0.19);
 }
 
+/* partie responsive  */
 @media screen and (min-width:768px) {
     .btnDocumentsLegaux {
         width: fit-content;
