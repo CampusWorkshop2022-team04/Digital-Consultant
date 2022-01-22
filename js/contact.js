@@ -25,6 +25,7 @@ requestContact.onload = function() {
 // Fonction affichant les éléments du formulaire
 function putForm() {
     const titreForm = document.getElementById('titreContacter')
+    console.log(titreForm)
     titreForm.innerText = contact["TitreNousContacter"][langueActif]
 
     const placeholderNom = document.getElementsByClassName('Nom')[0]
